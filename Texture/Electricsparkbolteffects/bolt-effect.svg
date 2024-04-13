@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="8701.5742"
+   height="5042.5933"
+   id="svg8115"
+   version="1.1"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="bolt-effect.svg">
+  <defs
+     id="defs8117">
+    <filter
+       inkscape:collect="always"
+       id="filter8913"
+       x="-0.083298467"
+       width="1.1665969"
+       y="-0.11327196"
+       height="1.2265439"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="32.458198"
+         id="feGaussianBlur8915" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter8926"
+       x="-0.12720238"
+       width="1.2544047"
+       y="-0.07709004"
+       height="1.15418"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="86.373801"
+         id="feGaussianBlur8928" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter8951"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="36.8426"
+         id="feGaussianBlur8953" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4055"
+       x="-0.077982619"
+       width="1.1559652"
+       y="-0.12484452"
+       height="1.249689"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="10.966161"
+         id="feGaussianBlur4057" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4063"
+       x="-0.10259433"
+       width="1.2051888"
+       y="-0.090202183"
+       height="1.1804044"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="15.059194"
+         id="feGaussianBlur4065" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4071"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="26.484376"
+         id="feGaussianBlur4073" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4189"
+       x="-0.07473401"
+       width="1.1494679"
+       y="-0.13418236"
+       height="1.2683647"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="21.039376"
+         id="feGaussianBlur4191" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4195"
+       x="-0.068871692"
+       width="1.1377434"
+       y="-0.15838876"
+       height="1.3167775"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="10.5675"
+         id="feGaussianBlur4197" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4201"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="28.51482"
+         id="feGaussianBlur4203" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4211"
+       x="-0.1024838"
+       width="1.2049676"
+       y="-0.090287805"
+       height="1.1805756"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="13.553749"
+         id="feGaussianBlur4213" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4217"
+       x="-0.10568923"
+       width="1.2113785"
+       y="-0.08793813"
+       height="1.1758763"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="25.463124"
+         id="feGaussianBlur4219" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4223"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="18.781874"
+         id="feGaussianBlur4225" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="4158.9171"
+     inkscape:cy="3273.5617"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:snap-nodes="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3097"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="546.13333"
+       spacingy="546.13333"
+       originx="2730.6667"
+       originy="2184.5333" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata8120">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(2730.6667,1735.5403)">
+    <g
+       id="g3147"
+       transform="matrix(0.94814815,0,0,0.94814815,-235.84272,4608.5364)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_4\bolt_animation_4_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="-3676.658"
+         x="2467.407"
+         height="1152"
+         width="1237.3334"
+         id="rect3149"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+      <g
+         transform="matrix(0.96194287,0,0,0.96194287,-114.15227,-431.68715)"
+         id="g3151">
+        <path
+           sodipodi:nodetypes="cccccsscccccccccc"
+           inkscape:connector-curvature="0"
+           id="path4187"
+           transform="matrix(1.108867,0,0,1.108867,1577.8603,-10282.069)"
+           d="m 2033.8438,6341 c -47.0445,14.6042 -129.875,49.125 -129.875,49.125 l -48.0938,10.9688 -34.3438,49.5 -152.0624,37.6562 c 0,0 -67.0327,-20.9256 -95.2813,-25.3125 -10.6058,-1.6471 -148.4422,83.8461 -156.6875,87.9687 -8.2452,4.1226 -59.3125,32.8126 -59.3125,32.8126 l 12.8706,18.3303 89.6294,115.2634 -42.4375,-111.8304 5.0938,-5.2946 c 0,0 141.2243,-93.2804 150.8437,-91.9063 9.6194,1.3743 91.5,15.1876 91.5,15.1876 l 176.4687,-46.7813 17.8438,-37.0937 c 0,0 161.6141,-84.0467 173.8438,-98.5938 z"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4189);enable-background:accumulate" />
+        <path
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.76206875;marker:none;enable-background:accumulate"
+           d="m 3833.1225,-3250.7432 c -52.1661,16.1941 -144.0141,54.4731 -144.0141,54.4731 l -53.3296,12.1629 -38.0827,54.8889 -168.617,41.7557 c 0,0 -74.3303,-23.2037 -105.6543,-28.0682 -11.7604,-1.8264 -164.6026,92.9742 -173.7456,97.5456 -9.1428,4.5714 -65.7697,36.3848 -65.7697,36.3848 l 14.2718,20.3259 99.3871,127.8118 -47.0575,-124.0051 5.6483,-5.871 c 0,0 156.599,-103.4355 167.2656,-101.9118 10.6667,1.5239 101.4613,16.841 101.4613,16.841 l 195.6804,-51.8742 19.7864,-41.132 c 0,0 179.2085,-93.1966 192.7696,-109.3274 z"
+           id="path3155"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccsscccccccccc" />
+        <path
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.76206875;marker:none;enable-background:accumulate"
+           d="m 3730.5869,-3204.5521 -91.8627,31.7414 -33.4047,52.7059 -182.3392,40.9587 -96.5408,-24.1871 -227.0405,129.5295 39.5678,51.5375 32.068,42.0726 -17.1923,-40.3201 -16.3262,-42.6172 172.1863,-112.7579 114.2826,18.2616 190.4825,-54.8542 31.3949,-42.3102 z"
+           id="path3157"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccccccccccc" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.94814815,0,0,0.94814815,-1409.0181,4608.5364)"
+       id="g3009"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_4\bolt_animation_4_01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+         id="rect3011"
+         width="1237.3334"
+         height="1152"
+         x="2467.407"
+         y="-3676.658" />
+      <g
+         id="g3013"
+         transform="matrix(0.96194287,0,0,0.96194287,-114.15227,-431.68715)">
+        <path
+           sodipodi:nodetypes="cccccccccc"
+           inkscape:connector-curvature="0"
+           id="path4193"
+           transform="matrix(1.108867,0,0,1.108867,2965.5281,-10282.069)"
+           d="m 782.40625,6341 c -47.04449,14.6042 -129.84375,49.125 -129.84375,49.125 l -48.09375,10.9688 -34.375,49.5 -66.19643,21.4464 -89.74107,29.0848 99.33036,-10.4331 77.23214,-14.0044 17.875,-37.0937 c 0,0 161.58284,-84.0467 173.8125,-98.5938 z"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4195);enable-background:accumulate" />
+        <path
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.76206875;marker:none;enable-background:accumulate"
+           d="m 3833.1126,-3250.7432 c -52.1661,16.1941 -143.9795,54.4731 -143.9795,54.4731 l -53.3296,12.1629 -38.1173,54.8889 -73.403,23.7812 -99.5109,32.2512 110.1442,-11.5689 85.6401,-15.529 19.821,-41.132 c 0,0 179.1739,-93.1966 192.735,-109.3274 z"
+           id="path3017"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccc" />
+        <path
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.76206875;marker:none;enable-background:accumulate"
+           d="m 3730.577,-3204.5521 -91.8627,31.7414 -33.4046,52.7059 -134.5986,36.6223 76.8435,-13.9995 66.9033,-14.9994 31.3948,-42.3102 z"
+           id="path3019"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccc" />
+      </g>
+    </g>
+    <g
+       id="g3021"
+       transform="matrix(0.94514766,0,0,0.94514766,-304.17558,3557.9821)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_1\bolt_animation_1_01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g3023"
+         transform="translate(-2311.3143,-1982.7888)">
+        <rect
+           y="-3483.1604"
+           x="-255.99994"
+           height="906.35413"
+           width="1155.6571"
+           id="rect3025"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+        <g
+           transform="matrix(0.98333367,0,0,0.98333367,-1628.6689,-3595.9789)"
+           id="g3027">
+          <path
+             sodipodi:nodetypes="ccccccccccccccccc"
+             inkscape:connector-curvature="0"
+             id="path3273"
+             transform="matrix(1.0847454,0,0,1.0847454,1656.2729,-4283.4099)"
+             d="m -156.65625,4141.25 70.71875,53.7812 -9.90625,18.375 -62.25,65.0938 127.34375,73.5625 42.4375,-161.2813 131.5625,-16.9687 18,42.2456 15.28125,30.8169 2.87054,8.0938 -3.37054,-18.125 -13.3125,-88.3438 -168,15.4062 L -57.625,4302.5312 -115.65625,4270 -61.875,4189.375 Z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4055);enable-background:accumulate" />
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.59321785;marker:none;enable-background:accumulate"
+             d="m 1486.3407,208.79191 76.7118,58.33891 -10.7457,19.9322 -67.5254,70.6102 138.1355,79.79658 46.0339,-174.94915 142.7118,-18.40672 19.5254,45.82572 16.5763,33.42849 3.1138,8.77972 -3.6562,-19.66101 -14.4406,-95.83053 -182.2373,16.7118 -56.7796,150.37283 -62.9491,-35.28807 58.3389,-87.4576 z"
+             id="path3031"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccccccccccccccc" />
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.59321785;marker:none;enable-background:accumulate"
+             d="m 1826.883,227.43597 c -56.3492,5.15211 -112.6678,9.25473 -169.0169,14.40683 -19.5656,51.8274 -39.147,104.7146 -58.7119,156.54221 -27.6961,-15.40262 -55.2643,-31.01742 -82.9491,-46.44055 9.1849,-13.74394 31.2657,-46.85981 40.4407,-60.61015 -14.2514,14.85006 -41.3846,49.10729 -55.6271,63.96603 38.4568,22.24335 76.8992,44.50244 115.3559,66.74579 14.8169,-56.24904 35.0482,-108.19142 49.8644,-164.44068 52.7809,-6.74364 100.1756,-17.75229 152.9152,-24.81355 7.5696,27.14239 12.4358,40.76994 12.4358,40.76994 1.5514,-1.14842 10.6596,35.08284 12.2663,33.92748 z m -254.3389,36.50852 c 0.3125,0.90435 0.4981,1.84754 0.5084,2.8135 1.3736,-1.73613 1.6553,-2.20214 -0.5084,-2.8135 z"
+             id="path3033"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccccccccccccc" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g4229"
+       transform="translate(-2597.1145,-4626.4297)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_3\bolt_animation_3_01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="matrix(0.89340686,0,0,0.89340686,-1007.3507,8619.1047)"
+         id="g3035">
+        <g
+           transform="translate(-768,9.1428573)"
+           id="g3037">
+          <rect
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+             id="rect3039"
+             width="853.33331"
+             height="1222.5859"
+             x="1746.0521"
+             y="-3485.4802" />
+          <g
+             id="g3041">
+            <path
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4211);enable-background:accumulate"
+               d="m 77.03125,5086.9688 53.125,60.1874 -38.96875,88.5 -88.0625,-32.3124 -142.59375,143.2812 128.4375,100.625 -13.75,-30.6562 -38.822653,-45.9188 -18.677347,-25.2688 6.4375,-5.6562 98,-86.4062 93.8125,19.4687 61.96875,-134.5313 z"
+               transform="matrix(1.0666667,0,0,1.0666667,2017.5238,-8816.762)"
+               id="path4209"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccccccccccc" />
+            <path
+               sodipodi:nodetypes="cccccccccccccc"
+               inkscape:connector-curvature="0"
+               id="path3045"
+               d="m 2099.6905,-3390.662 56.6667,64.1999 -41.5667,94.4 -93.9333,-34.4665 -152.1,152.8332 137,107.3334 -14.6667,-32.7 -41.4108,-48.98 -19.9225,-26.9534 6.8666,-6.0333 104.5334,-92.1666 100.0666,20.7666 66.1,-143.5 z"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+            <path
+               sodipodi:nodetypes="cccccccccccccc"
+               inkscape:connector-curvature="0"
+               id="path3047"
+               d="m 2144.2572,-3356.0621 20.0333,22.6334 c 3.9278,4.794 2.3438,11.7932 -0.6,16.6667 -14.385,32.7149 -28.6951,65.4791 -43.2667,98.1 -32.2757,-11.9552 -64.5818,-23.7604 -96.9,-35.6 -47.8728,48.1174 -93.0937,91.6779 -140.9666,139.7952 29.0908,24.4351 53.3542,44.8163 82.445,69.2514 l 22.8558,18.0059 -24.7974,-35.5742 c -20.7631,-18.1199 -28.6057,-34.0933 -49.3701,-52.2117 41.5569,-36.467 82.9754,-73.1294 124.5,-109.6333 32.3324,6.585 64.6308,13.4043 96.9333,20.1333 19.4363,-42.2037 38.8639,-84.4296 58.3,-126.6333 z"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.94514766,0,0,0.94514766,-1396.4422,1683.9538)"
+       id="g3049"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_1\bolt_animation_1_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g3051">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+           id="rect3053"
+           width="1155.6571"
+           height="906.35413"
+           x="-255.99994"
+           y="-3483.1604" />
+        <g
+           id="g3055"
+           transform="matrix(0.98333367,0,0,0.98333367,-1628.6689,-3595.9789)">
+          <path
+             sodipodi:nodetypes="cccccccccccccccccccccccc"
+             inkscape:connector-curvature="0"
+             id="path4061"
+             transform="matrix(1.0847454,0,0,1.0847454,311.18861,-4283.4099)"
+             d="m 1083.3438,4141.25 70.7187,53.7812 -9.9063,18.375 -62.25,65.0938 127.3438,73.5625 42.4375,-161.2813 131.5625,-16.9687 17,60.8125 -77.8125,55.1875 79.2187,84.875 -4.25,89.125 -61.9062,46.7187 -40.4937,31.3972 90.7098,-48.6201 45.6589,-26.6521 2.8125,-116 -79.2187,-59.4374 70.7187,-50.9376 -21.2187,-91.9374 -169.75,15.5624 -52.3438,138.625 -58.0312,-32.5312 53.7812,-80.625 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4063);enable-background:accumulate" />
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.59321785;marker:none;enable-background:accumulate"
+             d="m 1486.3408,208.79191 76.7118,58.33891 -10.7458,19.9322 -67.5254,70.6102 138.1356,79.79658 46.0338,-174.94915 142.7119,-18.40672 18.4406,65.96608 -84.4067,59.86439 85.9321,92.06776 -4.6102,96.67794 -67.1524,50.67789 -43.9254,34.05797 98.3971,-52.74043 49.5282,-28.91074 3.0509,-125.83047 -85.9321,-64.47444 76.7117,-55.25433 -23.0168,-99.72867 -184.1356,16.88124 -56.7797,150.37283 -62.949,-35.28807 58.3389,-87.4576 z"
+             id="path3059"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccccccccccccccccccccccc" />
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.59321785;marker:none;enable-background:accumulate"
+             d="m 1826.8829,227.43597 c -56.349,5.15211 -112.6677,9.25473 -169.0167,14.40683 -19.5656,51.8274 -39.147,104.7146 -58.7119,156.54221 -27.6961,-15.40262 -55.2644,-31.01742 -82.9492,-46.44055 9.1849,-13.74394 31.2658,-46.85981 40.4406,-60.61015 -14.2513,14.85006 -41.3844,49.10729 -55.627,63.96603 38.4568,22.24335 76.8992,44.50244 115.356,66.74579 14.8168,-56.24904 35.0482,-108.19142 49.8643,-164.44068 52.7809,-6.74364 100.1757,-17.75229 152.9151,-24.81355 7.5697,27.14239 15.1415,54.28164 22.712,81.4237 -26.9163,19.08404 -54.9138,40.34017 -81.8306,59.42377 26.9543,28.90315 55.0683,55.58886 81.9322,84.57618 -1.5334,35.2538 0.8846,59.69365 -0.6101,94.94918 -24.5509,18.53125 -49.4081,40.75638 -73.3842,57.73047 l 34.3087,-19.64734 c 19.7428,-16.52891 31.8012,-17.73125 51.55,-34.25268 0.9162,-38.71293 1.8298,-77.42262 2.7457,-116.13555 -30.9096,-23.20672 -53.2201,-47.45664 -84.1694,-70.61009 27.5285,-19.79476 46.438,-38.50987 73.9661,-58.30507 z m -254.3388,36.50852 c 0.3125,0.90435 0.4981,1.84754 0.5084,2.8135 1.3736,-1.73613 1.6553,-2.20214 -0.5084,-2.8135 z"
+             id="path3061"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccccccccccccccccccccc" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3063"
+       transform="matrix(0.94514766,0,0,0.94514766,-304.17558,1683.9538)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_1\bolt_animation_1_03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g3065">
+        <rect
+           y="-3483.1604"
+           x="-255.99994"
+           height="906.35413"
+           width="1155.6571"
+           id="rect3067"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+        <g
+           transform="matrix(0.98333367,0,0,0.98333367,-1628.6689,-3595.9789)"
+           id="g3069">
+          <path
+             sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccc"
+             inkscape:connector-curvature="0"
+             id="path4069"
+             transform="matrix(1.0847454,0,0,1.0847454,-1033.8957,-4283.4099)"
+             d="m 2323.3438,4141.25 70.7187,53.7812 -9.9063,18.375 -62.25,65.0938 127.3438,73.5625 42.4375,-161.2813 131.5625,-16.9687 17,60.8125 -77.8125,55.1875 79.2187,84.875 -4.25,89.125 -80.625,60.8437 79.2188,93.375 94.7812,56.5938 -14.1562,50.9375 5.6562,91.9687 206.5626,-19.8124 7.5312,-21.625 33.4688,-170 -40.8352,74.1007 -32.6961,56.6805 -124.5,9.9062 24.0625,-90.5312 -137.25,-73.5938 -48.0938,-65.0624 60.8438,-50.9376 2.8125,-116 -79.2187,-59.4374 70.7187,-50.9376 -21.2187,-91.9374 -169.75,15.5624 -52.3438,138.625 -58.0312,-32.5312 53.7812,-80.625 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4071);enable-background:accumulate" />
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.59321785;marker:none;enable-background:accumulate"
+             d="m 1486.3408,208.79191 76.7118,58.33891 -10.7458,19.9322 -67.5254,70.6102 138.1356,79.79658 46.0339,-174.94915 142.7118,-18.40672 18.4406,65.96608 -84.4067,59.86439 85.9321,92.06776 -4.6102,96.67794 -87.4576,65.99992 85.9323,101.2881 102.8134,61.38986 -15.3558,55.25422 6.1355,99.76262 224.0678,-21.49141 8.1695,-23.45761 36.3051,-184.40672 -44.2958,80.38039 -35.4669,61.48391 -135.0508,10.74571 26.1016,-98.2033 -148.8813,-79.83054 -52.1695,-70.57614 66,-55.25432 3.0509,-125.83047 -85.9321,-64.47444 76.7117,-55.25433 -23.0168,-99.72867 -184.1356,16.88124 -56.7797,150.37283 -62.949,-35.28807 58.3389,-87.4576 z"
+             id="path3073"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccc" />
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.59321785;marker:none;enable-background:accumulate"
+             d="m 1826.8829,227.43597 c -56.349,5.15211 -112.6677,9.25473 -169.0167,14.40683 -19.5656,51.8274 -39.147,104.7146 -58.7119,156.54221 -27.6961,-15.40262 -55.2644,-31.01742 -82.9492,-46.44055 9.1849,-13.74394 31.2658,-46.85981 40.4407,-60.61015 -14.2514,14.85006 -41.3845,49.10729 -55.6271,63.96603 38.4568,22.24335 76.8992,44.50244 115.356,66.74579 14.8168,-56.24904 35.0482,-108.19142 49.8643,-164.44068 52.7809,-6.74364 100.1757,-17.75229 152.9151,-24.81355 7.5697,27.14239 15.1415,54.28164 22.712,81.4237 -26.9163,19.08404 -54.9138,40.34017 -81.8306,59.42377 26.9543,28.90315 55.0683,55.58886 81.9322,84.57618 -1.5334,35.2538 0.8847,59.69365 -0.6101,94.94918 -27.5702,20.8103 -56.2199,54.57593 -82.7119,69.99992 25.8901,30.54741 47.4658,64.33397 73.3559,94.88138 36.0766,21.52438 78.635,39.79822 114.7119,61.32196 -5.6437,20.37574 -12.39,39.69202 -18.0339,60.06777 1.7792,29.1687 0.3225,47.54309 2.1017,76.71189 69.0659,-6.63094 132.7645,-2.48786 201.8304,-9.11869 15.4948,-44.73826 14.6753,-89.95978 30.2415,-136.5881 0,0 -30.3403,83.57149 -43.3602,107.09658 -51.9651,4.08049 -113.629,12.54845 -165.5931,16.64412 9.2279,-34.80731 13.0762,-83.63376 22.3051,-118.44075 -47.906,-25.67342 -85.0203,-54.71065 -133.0169,-80.16941 -19.7503,-26.70979 -39.3113,-53.4966 -59.1526,-80.13556 23.2637,-19.48376 46.5223,-38.96991 69.7966,-58.44066 0.9162,-38.71293 1.8298,-77.42262 2.7458,-116.13555 -30.9097,-23.20672 -53.2202,-47.45664 -84.1695,-70.61009 27.5285,-19.79476 46.438,-38.50987 73.9661,-58.30507 z m -254.3388,36.50852 c 0.3125,0.90435 0.4981,1.84754 0.5084,2.8135 1.3736,-1.73613 1.6553,-2.20214 -0.5084,-2.8135 z"
+             id="path3075"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.94514766,0,0,0.94514766,-2488.7089,2540.5923)"
+       id="g3077"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_1\bolt_animation_1_04.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g3079">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+           id="rect3081"
+           width="1155.6571"
+           height="906.35413"
+           x="-255.99994"
+           y="-3483.1604" />
+        <g
+           id="g3083"
+           transform="matrix(0.98333367,0,0,0.98333367,-1628.6689,-3595.9789)">
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8913);enable-background:accumulate"
+             d="m 1455.2952,269.12906 -63.305,66.1825 129.4875,74.81499 43.1625,-164.01748 133.8037,-17.265 17.2651,61.86624 -79.1313,56.11126 80.57,86.32498 -4.3163,90.64125 -82.0087,61.86625 80.57,94.9575 96.3962,57.54998 -14.3875,51.79497 5.755,93.51881 210.0575,-20.14253 66.1825,-189.915 110.7838,4.31626 35.9686,-182.72123 105.0288,-64.74376 -140.9974,53.23376 -25.8976,143.87498 -116.5387,-10.07124 -67.6212,184.16001 -126.6101,10.07123 24.4588,-92.07998 -139.5588,-74.81503 -48.9174,-66.18249 61.8663,-51.79499 2.8775,-117.97749 -80.57,-60.4275 71.9374,-51.795 -21.5812,-93.51874 -172.6499,15.82625 -53.2339,140.99749 -58.9887,-33.09124 54.6726,-82.00875 -96.3963,-48.9175 71.9375,54.6725 z"
+             id="path3085"
+             inkscape:connector-curvature="0"
+             transform="scale(1.0666667)" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path3087"
+             d="m 1552.3149,287.071 -67.5254,70.59466 138.12,79.80266 46.04,-174.95198 142.724,-18.416 18.4161,65.99066 -84.4067,59.85201 85.9413,92.07998 -4.604,96.684 -87.476,65.99066 85.9413,101.288 102.8227,61.38665 -15.3467,55.24797 6.1387,99.75339 224.0613,-21.48536 70.5947,-202.576 118.1693,4.60401 38.3666,-194.90265 112.0307,-69.06001 -150.3973,56.78268 -27.6241,153.46665 -124.3079,-10.74266 -72.1293,196.43734 -135.0508,10.74265 26.0894,-98.21865 -148.8627,-79.80269 -52.1786,-70.59466 65.9908,-55.24799 3.0693,-125.84266 -85.9413,-64.456 76.7332,-55.248 -23.02,-99.75332 -184.1598,16.88133 -56.7829,150.39733 -62.9213,-35.29733 58.3175,-87.476 -102.8227,-52.17866 76.7333,58.31733 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path3089"
+             d="m 1657.8518,241.82759 c -19.5655,51.82747 -39.132,104.73205 -58.6969,156.55974 -27.6961,-15.40271 -55.2792,-31.00764 -82.964,-46.43081 9.1849,-13.74389 31.2919,-46.88787 40.4668,-60.63829 -14.2514,14.85011 -41.3978,49.12883 -55.6403,63.98759 38.4568,22.24332 76.9135,44.48663 115.3701,66.72993 14.817,-56.24901 35.0227,-108.18769 49.8388,-164.43693 52.781,-6.74361 100.1831,-17.73343 152.9226,-24.79469 7.5696,27.14236 15.1412,54.28414 22.7117,81.42625 -26.9163,19.08402 -54.9067,40.32784 -81.8234,59.41141 26.9543,28.90318 55.0656,55.57745 81.9295,84.56476 -1.5334,35.25374 0.8825,59.7159 -0.6124,94.97134 -27.5702,20.81036 -56.2156,54.55354 -82.7076,69.97749 25.89,30.54738 47.4703,64.32722 73.3604,94.8746 36.0766,21.52442 78.6176,39.81737 114.6946,61.34116 -5.6438,20.37579 -12.3658,39.67389 -18.0098,60.04964 1.7792,29.16875 0.3261,47.56253 2.1053,76.73126 69.0659,-6.63086 132.7443,-2.48676 201.8103,-9.11762 23.5067,-67.87112 47.3049,-142.1061 70.7596,-209.99524 39.0191,1.54063 80.1935,11.69321 119.2131,13.22416 12.409,-63.612 26.0642,-125.03607 38.6445,-188.61433 8.5144,-5.23843 17.0262,-10.48129 25.5396,-15.72143 -15.3061,5.76188 -30.6122,11.52377 -45.9183,17.28564 -9.3377,52.32815 -18.7801,117.56752 -28.1112,169.89685 -41.9682,-3.63311 -79.626,-16.96788 -121.594,-20.6026 -23.8563,65.11995 -47.8524,139.88615 -71.6523,205.02676 -51.9652,4.08051 -113.6223,12.54227 -165.5863,16.63794 9.2279,-34.80721 13.0708,-83.62123 22.2997,-118.42817 -47.9059,-25.67353 -85.0014,-54.71062 -132.998,-80.16943 -19.7502,-26.70979 -39.3417,-53.50586 -59.183,-80.14486 23.2636,-19.48374 46.5398,-38.95217 69.8142,-58.42293 0.9162,-38.71295 1.8323,-77.42593 2.7484,-116.13889 -30.9097,-23.20674 -53.2128,-47.47298 -84.1622,-70.62649 27.5285,-19.79474 46.4359,-38.51341 73.964,-58.30871 -6.4954,-28.16131 -12.9907,-56.32261 -19.4861,-84.48392 -56.3491,5.15209 -112.6982,9.22672 -169.0474,14.37882 z m -85.3146,22.12778 c 0.3125,0.90438 0.4934,1.85316 0.5038,2.81908 1.3735,-1.73617 1.6599,-2.20763 -0.5038,-2.81908 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+             sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccc" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.89340686,0,0,0.89340686,-2842.0913,3992.675)"
+       id="g3105"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_3\bolt_animation_3_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(-768,9.1428573)"
+         id="g3107">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+           id="rect3109"
+           width="853.33331"
+           height="1222.5859"
+           x="1746.0521"
+           y="-3485.4802" />
+        <g
+           id="g3111">
+          <path
+             sodipodi:nodetypes="cccccccccccccccc"
+             inkscape:connector-curvature="0"
+             id="path4221"
+             transform="matrix(1.0666667,0,0,1.0666667,1066.6667,-8816.762)"
+             d="m 968.46875,5086.9688 53.09375,60.1874 -38.9375,88.5 -88.0625,-32.3124 -146.75,147.4687 141,118.5 120.375,-53.0937 219.1563,129.3124 -153.125,-147.3124 -63.5313,-44.9063 -119.34375,64.6563 -83.1875,-72.5626 104.4375,-92.0624 93.81245,19.4687 61.9688,-134.5313 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4223);enable-background:accumulate" />
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+             d="m 2099.7,-3390.662 56.6333,64.1999 -41.5333,94.4 -93.9333,-34.4665 -156.5334,157.2999 150.4,126.4 128.4,-56.6333 233.7668,137.9333 -163.3334,-157.1333 -67.7667,-47.9 -127.3,68.9667 -88.7333,-77.4001 111.4,-98.1999 100.0666,20.7666 66.1,-143.5 z"
+             id="path3115"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccccccccccccccc" />
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+             d="m 2144.2667,-3356.0621 20.0332,22.6334 c 3.9278,4.794 2.3439,11.7932 -0.5998,16.6667 -14.385,32.7149 -28.6952,65.4791 -43.2668,98.1 -32.2757,-11.9552 -64.6151,-23.7604 -96.9333,-35.6 -47.8729,48.1174 -95.727,96.2493 -143.6,144.3666 45.4996,38.218 91.0005,76.4154 136.5,114.6333 42.6464,-18.7407 85.2171,-37.6425 127.8999,-56.2999 61.3847,43.0117 122.124,68.1285 122.124,68.1285 0,0 -81.6543,-82.5964 -121.4239,-110.6951 -42.6573,23.0983 -85.3418,46.2034 -128,69.2999 -34.4321,-30.059 -68.8606,-60.1159 -103.3,-90.1667 41.5569,-36.467 82.9754,-73.1294 124.5,-109.6333 32.3324,6.585 64.5975,13.4043 96.8999,20.1333 19.4364,-42.2037 38.8973,-84.4296 58.3335,-126.6333 z"
+             id="path3117"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccccccccccccccc" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3119"
+       transform="matrix(0.89340686,0,0,0.89340686,-2079.7174,3992.675)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_3\bolt_animation_3_03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g3121"
+         transform="translate(-768,9.1428573)">
+        <rect
+           y="-3485.4802"
+           x="1746.0521"
+           height="1222.5859"
+           width="853.33331"
+           id="rect3123"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+        <g
+           id="g3125">
+          <path
+             sodipodi:nodetypes="cccccccccccccccccccc"
+             inkscape:connector-curvature="0"
+             id="path4215"
+             transform="matrix(1.0666667,0,0,1.0666667,115.80954,-8816.762)"
+             d="m 1859.9062,5086.9688 53.0938,60.1874 -38.9375,88.5 -88.0937,-32.3124 -146.7188,147.4687 141,118.5 120.375,-53.0937 224.7812,157.5312 -129.2187,47.7812 10.0937,106.9688 7.9688,53.4062 27.9688,-144.4374 175.25,-61.9376 -314.3438,-222.2187 -119.3438,64.6563 -83.1874,-72.5626 104.4374,-92.0624 93.8126,19.4687 61.9374,-134.5313 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4217);enable-background:accumulate" />
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+             d="m 2099.7095,-3390.662 56.6334,64.1999 -41.5334,94.4 -93.9666,-34.4665 -156.5,157.2999 150.4,126.4 128.4,-56.6333 239.7666,168.0333 -137.8333,50.9666 10.7666,114.1001 8.5001,56.9666 29.8334,-154.0666 186.9333,-66.0667 -335.3001,-237.0333 -127.3,68.9667 -88.7332,-77.4001 111.3998,-98.1999 100.0668,20.7666 66.0666,-143.5 z"
+             id="path3129"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccccccccccccccccccc" />
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+             d="m 2144.2762,-3356.0621 20,22.6334 c 3.9278,4.794 2.3772,11.7932 -0.5667,16.6667 -14.3849,32.7149 -28.6951,65.4791 -43.2666,98.1 -32.2757,-11.9552 -64.6152,-23.7604 -96.9333,-35.6 -47.8729,48.1174 -95.7604,96.2493 -143.6334,144.3666 45.4996,38.218 91.0005,76.4154 136.4999,114.6333 42.6464,-18.7407 85.2172,-37.6425 127.9001,-56.2999 87.1084,61.0361 174.2245,122.0643 261.3333,183.0999 -49.721,18.314 -99.4421,36.6488 -149.1,55.1335 4.5015,48.0828 4.6893,66.0137 9.1901,114.0967 0,0 19.0629,-85.2856 17.3766,-111.4968 58.4575,-20.6154 116.898,-41.2886 175.3333,-61.9667 -104.4783,-73.818 -208.955,-147.6152 -313.4332,-221.4332 -42.6573,23.0983 -85.3085,46.2034 -127.9668,69.2999 -34.4321,-30.059 -68.8606,-60.1159 -103.3,-90.1667 41.557,-36.467 82.9421,-73.1294 124.4668,-109.6333 32.3322,6.585 64.6308,13.4043 96.9333,20.1333 19.4363,-42.2037 38.8638,-84.4296 58.2999,-126.6333 z"
+             id="path3131"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccccccccccccccccccc" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.89340686,0,0,0.89340686,-3604.4651,5084.9413)"
+       id="g3133"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_3\bolt_animation_3_04.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(-768,9.1428573)"
+         id="g3135">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+           id="rect3137"
+           width="853.33331"
+           height="1222.5859"
+           x="1746.0521"
+           y="-3485.4802" />
+        <g
+           id="g3139">
+          <path
+             transform="matrix(0.3784734,0,0,0.3784734,779.69131,-3262.3706)"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8926);enable-background:accumulate"
+             d="m 2865.8163,404.59062 397.4015,334.00669 339.2465,-149.66749 633.5923,444.01358 -364.191,134.7007 39.9115,424.0579 -204.5456,324.2796 154.6563,434.0358 -79.8227,-434.0358 244.457,-319.2906 -24.9445,-384.1466 493.9027,-174.6121 -885.9245,-626.25333 -336.3602,182.23976 -234.4789,-204.54556 294.346,-259.42368 264.4127,54.87809 174.6119,-379.15766 -284.3683,-144.67859 149.6676,169.62316 -109.7561,249.445838 -248.2355,-91.011012 z"
+             id="path3141"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccccccccccccccccccccc" />
+          <path
+             sodipodi:nodetypes="ccccccccccccccccccccccc"
+             inkscape:connector-curvature="0"
+             id="path3143"
+             d="m 1864.3265,-3109.2437 150.406,126.4126 128.3957,-56.6452 239.7979,168.0473 -137.8367,50.9807 15.1055,160.4946 -77.4151,122.7312 58.5333,164.271 -30.2108,-164.271 92.5205,-120.843 -9.4408,-145.3892 186.929,-66.0861 -335.2988,-237.0203 -127.3034,68.9729 -88.7441,-77.415 111.4021,-98.185 100.0732,20.77 66.086,-143.5012 -107.6258,-54.757 56.6452,64.1979 -41.5397,94.4086 -93.9507,-34.4452 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path3145"
+             d="m 2164.289,-3333.4289 c 3.9277,4.794 2.3524,11.803 -0.5914,16.6765 -14.385,32.7149 -28.6928,65.4747 -43.2643,98.0955 -32.2758,-11.955 -64.6065,-23.7605 -96.9247,-35.6002 -47.8729,48.1175 -95.7458,96.2348 -143.6188,144.3521 45.4996,38.218 90.9993,76.436 136.4988,114.6539 42.6464,-18.7407 85.2175,-37.6524 127.9004,-56.3098 87.1083,61.0362 174.2152,122.0746 261.324,183.1102 -49.7211,18.3141 -99.437,36.6423 -149.0948,55.127 4.8687,52.0047 9.7392,104.0091 14.6066,156.0138 -25.6065,40.4487 -51.1577,80.9327 -76.7236,121.4072 4.2421,11.8903 8.4841,23.7808 12.7262,35.6711 -2.428,-13.2151 -4.8604,-26.4294 -7.2856,-39.6451 30.9053,-40.5361 61.9336,-80.9786 92.856,-121.5018 -3.2048,-49.789 -6.4125,-99.5778 -9.6156,-149.3669 58.4575,-20.6153 116.9044,-41.2614 175.3397,-61.9395 -104.4783,-73.818 -208.9567,-147.6362 -313.4351,-221.4542 -42.6573,23.0984 -85.3131,46.1996 -127.9713,69.2961 -34.4321,-30.059 -68.8721,-60.1088 -103.3115,-90.1595 41.5569,-36.467 82.9578,-73.1114 124.4823,-109.6153 32.3324,6.5849 64.6221,13.3773 96.9246,20.1063 19.4363,-42.2037 38.8725,-84.4074 58.3086,-126.6112 -16.3847,-8.3145 -32.7695,-16.6291 -49.1542,-24.9436 6.6745,7.5458 13.3491,15.0916 20.0237,22.6374 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.94814815,0,0,0.94814815,937.33264,4608.5364)"
+       id="g3159"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_4\bolt_animation_4_03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+         id="rect3161"
+         width="1237.3334"
+         height="1152"
+         x="2467.407"
+         y="-3676.658" />
+      <g
+         id="g3163"
+         transform="matrix(0.96194287,0,0,0.96194287,-114.15227,-431.68715)">
+        <path
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.76206875;marker:none;enable-background:accumulate"
+           d="m 3833.1176,-3250.7432 c -52.1661,16.1941 -143.9796,54.4731 -143.9796,54.4731 l -53.3642,12.1629 -38.0826,54.8889 -168.6171,41.7557 c 0,0 -74.3302,-23.2037 -105.6541,-28.0682 -11.7606,-1.8264 -164.5681,92.9742 -173.711,97.5456 -9.1429,4.5714 -65.8043,36.3848 -65.8043,36.3848 l 76.4424,147.9991 -41.132,88.3628 -73.1505,80.7741 57.7104,140.4399 c 16.5044,38.7997 30.4346,67.1854 30.4346,67.1854 -7.6133,-37.1564 -26.2622,-89.9743 -33.7462,-126.1286 l -22.3803,-72.3486 31.9839,-22.8703 65.527,-54.8544 47.2309,-103.6097 -66.6706,-126.6881 c 0,0 156.5989,-103.4355 167.2657,-101.9118 10.6666,1.5239 101.4613,16.841 101.4613,16.841 l 195.6803,-51.8742 19.7863,-41.132 c 0,0 179.2085,-93.1966 192.7697,-109.3274 z"
+           id="path3167"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccssccccccccccccccccc" />
+        <path
+           sodipodi:nodetypes="cccccssccccccccccccccccc"
+           inkscape:connector-curvature="0"
+           id="path4199"
+           transform="matrix(1.108867,0,0,1.108867,209.20163,-10282.069)"
+           d="m 3268.125,6341 c -47.0445,14.6042 -129.8438,49.125 -129.8438,49.125 l -48.125,10.9688 -34.3437,49.5 -152.0625,37.6562 c 0,0 -67.0326,-20.9256 -95.2812,-25.3125 -10.6059,-1.6471 -148.411,83.8461 -156.6563,87.9687 -8.2452,4.1226 -59.3437,32.8126 -59.3437,32.8126 l 68.9374,133.4687 -37.0937,79.6875 -65.9687,72.8438 52.0445,126.6517 c 14.884,34.9904 27.4465,60.5893 27.4465,60.5893 -6.8658,-33.5085 -23.6838,-81.1408 -30.433,-113.7455 l -20.183,-65.2455 28.8437,-20.625 59.0937,-49.4688 42.5938,-93.4375 -60.125,-114.25 c 0,0 141.2243,-93.2804 150.8438,-91.9063 9.6194,1.3743 91.5,15.1876 91.5,15.1876 l 176.4687,-46.7813 17.8437,-37.0937 c 0,0 161.6141,-84.0467 173.8438,-98.5938 z"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4201);enable-background:accumulate" />
+        <path
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.76206875;marker:none;enable-background:accumulate"
+           d="m 3730.582,-3204.5521 -91.8627,31.7414 -33.4046,52.7059 -182.3393,40.9587 -96.506,-24.1871 -227.0753,129.5295 74.6752,143.2517 -48.7554,100.5604 -71.6258,70.1013 52.0077,127.0146 -14.8012,-60.5768 -20.2617,-69.2447 91.2389,-76.4425 42.6914,-100.5604 -67.0518,-123.4308 172.1863,-112.7579 114.2825,18.2616 190.4826,-54.8542 31.3948,-42.3102 z"
+           id="path3169"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccccccccccccccccc" />
+      </g>
+    </g>
+    <g
+       id="g3171"
+       transform="matrix(0.94814815,0,0,0.94814815,-1409.0181,5700.8031)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_4\bolt_animation_4_04.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="-3676.658"
+         x="2467.407"
+         height="1152"
+         width="1237.3334"
+         id="rect3173"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+      <g
+         transform="matrix(0.96194287,0,0,0.96194287,-114.15227,-431.68715)"
+         id="g3175">
+        <path
+           sodipodi:nodetypes="ccccssccccccccscccccccscccc"
+           inkscape:connector-curvature="0"
+           id="path3177"
+           d="m 2855.6961,-2497.943 68.5714,-75.7143 38.5714,-82.8571 -71.6736,-138.7447 c 0,0 53.1022,-29.8267 61.6736,-34.1124 8.5715,-4.2858 151.8318,-93.1409 162.8572,-91.4286 29.3662,4.5605 99.0616,26.306 99.0616,26.306 l 158.0812,-39.1632 35.7143,-51.4285 50,-11.4286 c 0,0 86.0907,-35.8802 134.9964,-51.0622 -12.7135,15.1226 -180.7107,102.4908 -180.7107,102.4908 l -18.5714,38.5714 -183.4489,48.6432 c 0,0 -85.1225,-14.3575 -95.1225,-15.7861 -10,-1.4285 -156.7963,95.541 -156.7963,95.541 l 62.5106,118.7448 -44.2857,97.1428 -61.4286,51.4286 -30,21.4286 62.8571,165.7142 -78.5714,102.8572 c 0,0 -95.8976,30.6295 -110,34.2857 -19.2857,5 -115.7143,31.7857 -115.7143,31.7857 l 215.7143,-91.7857 52.8571,-88.5714 z"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8951);enable-background:accumulate"
+           transform="scale(1.0666667)" />
+        <path
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+           d="m 3046.0758,-2664.4725 73.1429,-80.762 41.1428,-88.3809 -76.4518,-147.9943 c 0,0 56.6423,-31.8152 65.7851,-36.3866 9.143,-4.5715 161.9539,-99.3503 173.7144,-97.5238 31.3239,4.8645 105.6657,28.0597 105.6657,28.0597 l 168.6199,-41.7741 38.0953,-54.857 53.3333,-12.1905 c 0,0 91.8301,-38.2722 143.9962,-54.4664 -13.5611,16.1308 -192.7581,109.3235 -192.7581,109.3235 l -19.8095,41.1429 -195.6788,51.8861 c 0,0 -90.7974,-15.3147 -101.464,-16.8386 -10.6667,-1.5237 -167.2494,101.9104 -167.2494,101.9104 l 66.678,126.6612 -47.2381,103.619 -65.5239,54.8571 -32,22.8572 67.0476,176.7618 -83.8095,109.7144 c 0,0 -102.2908,32.6714 -117.3333,36.5714 -20.5714,5.3333 -123.4286,33.9047 -123.4286,33.9047 l 230.0953,-97.9047 56.3809,-94.4762 z"
+           id="path3179"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccssccccccccscccccccscccc" />
+        <path
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+           d="m 2953.6463,-2342.5024 c 32,-6.0953 104.62,-37.0177 104.62,-37.0177 l 73.1429,-103.6191 -60.7675,-179.5481 91.2436,-76.4519 42.6667,-100.5714 -67.0476,-123.4286 172.1904,-112.7619 114.2858,18.2857 190.4761,-54.8571 31.4006,-42.3287 84.734,-49.7627 -91.8618,31.7702 -33.4156,52.7022 -182.3342,40.958 -96.523,-24.1961 -227.0475,129.5237 74.6666,143.2381 -48.7619,100.5715 -71.6191,70.0952 60.9525,173.7143 -59.4286,100.5714 z"
+           id="path3181"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccccccccccccccccccc" />
+      </g>
+    </g>
+    <g
+       id="g4103"
+       transform="matrix(3.1371039,0,0,3.1371039,-109.64726,-15521.691)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_1\bolt_animation_1_05.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+         id="rect4079"
+         width="348.17676"
+         height="273.06668"
+         x="-487.31339"
+         y="4708.2222" />
+      <path
+         transform="matrix(0.3160097,0,0,0.3160097,-900.87153,4674.2324)"
+         inkscape:connector-curvature="0"
+         id="path4083"
+         d="m 1455.2952,269.12906 -63.305,66.1825 129.4875,74.81499 43.1625,-164.01748 133.8037,-17.265 17.2651,61.86624 -79.1313,56.11126 80.57,86.32498 -4.3163,90.64125 -82.0087,61.86625 80.57,94.9575 96.3962,57.54998 -14.3875,51.79497 5.755,93.51881 210.0575,-20.14253 66.1825,-189.915 110.7838,4.31626 35.9686,-182.72123 105.0288,-64.74376 -140.9974,53.23376 -25.8976,143.87498 -116.5387,-10.07124 -67.6212,184.16001 -126.6101,10.07123 24.4588,-92.07998 -139.5588,-74.81503 -48.9174,-66.18249 61.8663,-51.79499 2.8775,-117.97749 -80.57,-60.4275 71.9374,-51.795 -21.5812,-93.51874 -172.6499,15.82625 -53.2339,140.99749 -58.9887,-33.09124 54.6726,-82.00875 -96.3963,-48.9175 71.9375,54.6725 z"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8913);enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(3.1371039,0,0,3.1371039,982.6194,-15521.691)"
+       id="g4107"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_1\bolt_animation_1_06.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="4708.2222"
+         x="-487.31339"
+         height="273.06668"
+         width="348.17676"
+         id="rect4109"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+      <path
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.37610623;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8913);enable-background:accumulate"
+         d="m 1455.2952,269.12906 -63.305,66.1825 129.4875,74.81499 43.1625,-164.01748 133.8037,-17.265 17.2651,61.86624 -79.1313,56.11126 80.57,86.32498 -4.3163,90.64125 -82.0087,61.86625 80.57,94.9575 96.3962,57.54998 -14.3875,51.79497 5.755,93.51881 210.0575,-20.14253 66.1825,-189.915 110.7838,4.31626 35.9686,-182.72123 105.0288,-64.74376 -140.9974,53.23376 -25.8976,143.87498 -116.5387,-10.07124 -67.6212,184.16001 -126.6101,10.07123 24.4588,-92.07998 -139.5588,-74.81503 -48.9174,-66.18249 61.8663,-51.79499 2.8775,-117.97749 -80.57,-60.4275 71.9374,-51.795 -21.5812,-93.51874 -172.6499,15.82625 -53.2339,140.99749 -58.9887,-33.09124 54.6726,-82.00875 -96.3963,-48.9175 71.9375,54.6725 z"
+         id="path4111"
+         inkscape:connector-curvature="0"
+         transform="matrix(0.3160097,0,0,0.3160097,-900.87153,4674.2324)" />
+    </g>
+    <g
+       id="g4137"
+       transform="matrix(0.89340686,0,0,0.89340686,-2842.0912,5084.9413)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_3\bolt_animation_3_05.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g4139"
+         transform="translate(-768,9.1428573)">
+        <rect
+           y="-3485.4802"
+           x="1746.0521"
+           height="1222.5859"
+           width="853.33331"
+           id="rect4141"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+        <g
+           id="g4143">
+          <path
+             sodipodi:nodetypes="ccccccccccccccccccccccc"
+             inkscape:connector-curvature="0"
+             id="path4145"
+             d="m 2865.8163,404.59062 397.4015,334.00669 339.2465,-149.66749 633.5923,444.01358 -364.191,134.7007 39.9115,424.0579 -204.5456,324.2796 154.6563,434.0358 -79.8227,-434.0358 244.457,-319.2906 -24.9445,-384.1466 493.9027,-174.6121 -885.9245,-626.25333 -336.3602,182.23976 -234.4789,-204.54556 294.346,-259.42368 264.4127,54.87809 174.6119,-379.15766 -284.3683,-144.67859 149.6676,169.62316 -109.7561,249.445838 -248.2355,-91.011012 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8926);enable-background:accumulate"
+             transform="matrix(0.3784734,0,0,0.3784734,779.69131,-3262.3706)" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.89340686,0,0,0.89340686,-2079.7173,5084.9413)"
+       id="g4151"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_3\bolt_animation_3_06.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(-768,9.1428573)"
+         id="g4153">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+           id="rect4155"
+           width="853.33331"
+           height="1222.5859"
+           x="1746.0521"
+           y="-3485.4802" />
+        <g
+           id="g4157">
+          <path
+             transform="matrix(0.3784734,0,0,0.3784734,779.69131,-3262.3706)"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8926);enable-background:accumulate"
+             d="m 2865.8163,404.59062 397.4015,334.00669 339.2465,-149.66749 633.5923,444.01358 -364.191,134.7007 39.9115,424.0579 -204.5456,324.2796 154.6563,434.0358 -79.8227,-434.0358 244.457,-319.2906 -24.9445,-384.1466 493.9027,-174.6121 -885.9245,-626.25333 -336.3602,182.23976 -234.4789,-204.54556 294.346,-259.42368 264.4127,54.87809 174.6119,-379.15766 -284.3683,-144.67859 149.6676,169.62316 -109.7561,249.445838 -248.2355,-91.011012 z"
+             id="path4159"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccccccccccccccccccccc" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.94814815,0,0,0.94814815,-235.84272,5700.8031)"
+       id="g4167"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_4\bolt_animation_4_05.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+         id="rect4169"
+         width="1237.3334"
+         height="1152"
+         x="2467.407"
+         y="-3676.658" />
+      <g
+         id="g4171"
+         transform="matrix(0.96194287,0,0,0.96194287,-114.15227,-431.68715)">
+        <path
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8951);enable-background:accumulate"
+           d="m 2855.6961,-2497.943 68.5714,-75.7143 38.5714,-82.8571 -71.6736,-138.7447 c 0,0 53.1022,-29.8267 61.6736,-34.1124 8.5715,-4.2858 151.8318,-93.1409 162.8572,-91.4286 29.3662,4.5605 99.0616,26.306 99.0616,26.306 l 158.0812,-39.1632 35.7143,-51.4285 50,-11.4286 c 0,0 86.0907,-35.8802 134.9964,-51.0622 -12.7135,15.1226 -180.7107,102.4908 -180.7107,102.4908 l -18.5714,38.5714 -183.4489,48.6432 c 0,0 -85.1225,-14.3575 -95.1225,-15.7861 -10,-1.4285 -156.7963,95.541 -156.7963,95.541 l 62.5106,118.7448 -44.2857,97.1428 -61.4286,51.4286 -30,21.4286 62.8571,165.7142 -78.5714,102.8572 c 0,0 -95.8976,30.6295 -110,34.2857 -19.2857,5 -115.7143,31.7857 -115.7143,31.7857 l 215.7143,-91.7857 52.8571,-88.5714 z"
+           id="path4173"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccssccccccccscccccccscccc"
+           transform="scale(1.0666667)" />
+      </g>
+    </g>
+    <g
+       id="g4179"
+       transform="matrix(0.94814815,0,0,0.94814815,937.33264,5700.8031)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_4\bolt_animation_4_06.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="-3676.658"
+         x="2467.407"
+         height="1152"
+         width="1237.3334"
+         id="rect4181"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+      <g
+         transform="matrix(0.96194287,0,0,0.96194287,-114.15227,-431.68715)"
+         id="g4183">
+        <path
+           sodipodi:nodetypes="ccccssccccccccscccccccscccc"
+           inkscape:connector-curvature="0"
+           id="path4185"
+           d="m 2855.6961,-2497.943 68.5714,-75.7143 38.5714,-82.8571 -71.6736,-138.7447 c 0,0 53.1022,-29.8267 61.6736,-34.1124 8.5715,-4.2858 151.8318,-93.1409 162.8572,-91.4286 29.3662,4.5605 99.0616,26.306 99.0616,26.306 l 158.0812,-39.1632 35.7143,-51.4285 50,-11.4286 c 0,0 86.0907,-35.8802 134.9964,-51.0622 -12.7135,15.1226 -180.7107,102.4908 -180.7107,102.4908 l -18.5714,38.5714 -183.4489,48.6432 c 0,0 -85.1225,-14.3575 -95.1225,-15.7861 -10,-1.4285 -156.7963,95.541 -156.7963,95.541 l 62.5106,118.7448 -44.2857,97.1428 -61.4286,51.4286 -30,21.4286 62.8571,165.7142 -78.5714,102.8572 c 0,0 -95.8976,30.6295 -110,34.2857 -19.2857,5 -115.7143,31.7857 -115.7143,31.7857 l 215.7143,-91.7857 52.8571,-88.5714 z"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8951);enable-background:accumulate"
+           transform="scale(1.0666667)" />
+      </g>
+    </g>
+    <g
+       id="g5293"
+       transform="translate(-6089.4452,1047.7853)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_2\bolt_animation_2_07.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\7.png"
+         id="g5158">
+        <rect
+           y="-1563.6654"
+           x="9621.0322"
+           height="1219.6602"
+           width="1219.6602"
+           id="rect5055"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+        <g
+           id="g4334"
+           transform="matrix(0.89340686,0,0,0.89340686,8747.2338,1542.1183)">
+          <g
+             id="g4336"
+             transform="translate(-768,9.1428573)">
+            <rect
+               y="-3485.4802"
+               x="1746.0521"
+               height="1222.5859"
+               width="853.33331"
+               id="rect4338"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+            <g
+               id="g4340">
+              <path
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4223);enable-background:accumulate"
+                 d="m 968.46875,5086.9688 53.09375,60.1874 -38.9375,88.5 -88.0625,-32.3124 -146.75,147.4687 141,118.5 120.375,-53.0937 219.1563,129.3124 -153.125,-147.3124 -63.5313,-44.9063 -119.34375,64.6563 -83.1875,-72.5626 104.4375,-92.0624 93.81245,19.4687 61.9688,-134.5313 z"
+                 transform="matrix(1.0666667,0,0,1.0666667,1066.6667,-8816.762)"
+                 id="path4342"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="cccccccccccccccc" />
+              <path
+                 sodipodi:nodetypes="cccccccccccccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4344"
+                 d="m 2099.7,-3390.662 56.6333,64.1999 -41.5333,94.4 -93.9333,-34.4665 -156.5334,157.2999 150.4,126.4 128.4,-56.6333 233.7668,137.9333 -163.3334,-157.1333 -67.7667,-47.9 -127.3,68.9667 -88.7333,-77.4001 111.4,-98.1999 100.0666,20.7666 66.1,-143.5 z"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+              <path
+                 sodipodi:nodetypes="cccccccccccccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4346"
+                 d="m 2144.2667,-3356.0621 20.0332,22.6334 c 3.9278,4.794 2.3439,11.7932 -0.5998,16.6667 -14.385,32.7149 -28.6952,65.4791 -43.2668,98.1 -32.2757,-11.9552 -64.6151,-23.7604 -96.9333,-35.6 -47.8729,48.1174 -95.727,96.2493 -143.6,144.3666 45.4996,38.218 91.0005,76.4154 136.5,114.6333 42.6464,-18.7407 85.2171,-37.6425 127.8999,-56.2999 61.3847,43.0117 122.124,68.1285 122.124,68.1285 0,0 -81.6543,-82.5964 -121.4239,-110.6951 -42.6573,23.0983 -85.3418,46.2034 -128,69.2999 -34.4321,-30.059 -68.8606,-60.1159 -103.3,-90.1667 41.5569,-36.467 82.9754,-73.1294 124.5,-109.6333 32.3324,6.585 64.5975,13.4043 96.8999,20.1333 19.4364,-42.2037 38.8973,-84.4296 58.3335,-126.6333 z"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+            </g>
+          </g>
+        </g>
+        <g
+           transform="matrix(0.94814815,0,0,0.94814815,7281.5649,2049.7446)"
+           id="g4388">
+          <rect
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+             id="rect4390"
+             width="1237.3334"
+             height="1152"
+             x="2467.407"
+             y="-3676.658" />
+          <g
+             id="g4392"
+             transform="matrix(0.96194287,0,0,0.96194287,-114.15227,-431.68715)">
+            <path
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8951);enable-background:accumulate"
+               d="m 2855.6961,-2497.943 68.5714,-75.7143 38.5714,-82.8571 -71.6736,-138.7447 c 0,0 53.1022,-29.8267 61.6736,-34.1124 8.5715,-4.2858 151.8318,-93.1409 162.8572,-91.4286 29.3662,4.5605 99.0616,26.306 99.0616,26.306 l 158.0812,-39.1632 35.7143,-51.4285 50,-11.4286 c 0,0 86.0907,-35.8802 134.9964,-51.0622 -12.7135,15.1226 -180.7107,102.4908 -180.7107,102.4908 l -18.5714,38.5714 -183.4489,48.6432 c 0,0 -85.1225,-14.3575 -95.1225,-15.7861 -10,-1.4285 -156.7963,95.541 -156.7963,95.541 l 62.5106,118.7448 -44.2857,97.1428 -61.4286,51.4286 -30,21.4286 62.8571,165.7142 -78.5714,102.8572 c 0,0 -95.8976,30.6295 -110,34.2857 -19.2857,5 -115.7143,31.7857 -115.7143,31.7857 l 215.7143,-91.7857 52.8571,-88.5714 z"
+               id="path4394"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="ccccssccccccccscccccccscccc"
+               transform="scale(1.0666667)" />
+            <path
+               sodipodi:nodetypes="ccccssccccccccscccccccscccc"
+               inkscape:connector-curvature="0"
+               id="path4396"
+               d="m 3046.0758,-2664.4725 73.1429,-80.762 41.1428,-88.3809 -76.4518,-147.9943 c 0,0 56.6423,-31.8152 65.7851,-36.3866 9.143,-4.5715 161.9539,-99.3503 173.7144,-97.5238 31.3239,4.8645 105.6657,28.0597 105.6657,28.0597 l 168.6199,-41.7741 38.0953,-54.857 53.3333,-12.1905 c 0,0 91.8301,-38.2722 143.9962,-54.4664 -13.5611,16.1308 -192.7581,109.3235 -192.7581,109.3235 l -19.8095,41.1429 -195.6788,51.8861 c 0,0 -90.7974,-15.3147 -101.464,-16.8386 -10.6667,-1.5237 -167.2494,101.9104 -167.2494,101.9104 l 66.678,126.6612 -47.2381,103.619 -65.5239,54.8571 -32,22.8572 67.0476,176.7618 -83.8095,109.7144 c 0,0 -102.2908,32.6714 -117.3333,36.5714 -20.5714,5.3333 -123.4286,33.9047 -123.4286,33.9047 l 230.0953,-97.9047 56.3809,-94.4762 z"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+            <path
+               sodipodi:nodetypes="ccccccccccccccccccccccc"
+               inkscape:connector-curvature="0"
+               id="path4398"
+               d="m 2953.6463,-2342.5024 c 32,-6.0953 104.62,-37.0177 104.62,-37.0177 l 73.1429,-103.6191 -60.7675,-179.5481 91.2436,-76.4519 42.6667,-100.5714 -67.0476,-123.4286 172.1904,-112.7619 114.2858,18.2857 190.4761,-54.8571 31.4006,-42.3287 84.734,-49.7627 -91.8618,31.7702 -33.4156,52.7022 -182.3342,40.958 -96.523,-24.1961 -227.0475,129.5237 74.6666,143.2381 -48.7619,100.5715 -71.6191,70.0952 60.9525,173.7143 -59.4286,100.5714 z"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g5310"
+       transform="translate(-6300.6996,1047.7853)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_2\bolt_animation_2_08.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\8.png"
+         id="g5174">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+           id="rect5057"
+           width="1219.6602"
+           height="1219.6602"
+           x="11051.947"
+           y="-1563.6654" />
+        <g
+           transform="matrix(0.89340686,0,0,0.89340686,10178.148,1542.1183)"
+           id="g4348">
+          <g
+             transform="translate(-768,9.1428573)"
+             id="g4350">
+            <rect
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+               id="rect4352"
+               width="853.33331"
+               height="1222.5859"
+               x="1746.0521"
+               y="-3485.4802" />
+            <g
+               id="g4354">
+              <path
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4217);enable-background:accumulate"
+                 d="m 1859.9062,5086.9688 53.0938,60.1874 -38.9375,88.5 -88.0937,-32.3124 -146.7188,147.4687 141,118.5 120.375,-53.0937 224.7812,157.5312 -129.2187,47.7812 10.0937,106.9688 7.9688,53.4062 27.9688,-144.4374 175.25,-61.9376 -314.3438,-222.2187 -119.3438,64.6563 -83.1874,-72.5626 104.4374,-92.0624 93.8126,19.4687 61.9374,-134.5313 z"
+                 transform="matrix(1.0666667,0,0,1.0666667,115.80954,-8816.762)"
+                 id="path4356"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="cccccccccccccccccccc" />
+              <path
+                 sodipodi:nodetypes="cccccccccccccccccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4358"
+                 d="m 2099.7095,-3390.662 56.6334,64.1999 -41.5334,94.4 -93.9666,-34.4665 -156.5,157.2999 150.4,126.4 128.4,-56.6333 239.7666,168.0333 -137.8333,50.9666 10.7666,114.1001 8.5001,56.9666 29.8334,-154.0666 186.9333,-66.0667 -335.3001,-237.0333 -127.3,68.9667 -88.7332,-77.4001 111.3998,-98.1999 100.0668,20.7666 66.0666,-143.5 z"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+              <path
+                 sodipodi:nodetypes="cccccccccccccccccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4360"
+                 d="m 2144.2762,-3356.0621 20,22.6334 c 3.9278,4.794 2.3772,11.7932 -0.5667,16.6667 -14.3849,32.7149 -28.6951,65.4791 -43.2666,98.1 -32.2757,-11.9552 -64.6152,-23.7604 -96.9333,-35.6 -47.8729,48.1174 -95.7604,96.2493 -143.6334,144.3666 45.4996,38.218 91.0005,76.4154 136.4999,114.6333 42.6464,-18.7407 85.2172,-37.6425 127.9001,-56.2999 87.1084,61.0361 174.2245,122.0643 261.3333,183.0999 -49.721,18.314 -99.4421,36.6488 -149.1,55.1335 4.5015,48.0828 4.6893,66.0137 9.1901,114.0967 0,0 19.0629,-85.2856 17.3766,-111.4968 58.4575,-20.6154 116.898,-41.2886 175.3333,-61.9667 -104.4783,-73.818 -208.955,-147.6152 -313.4332,-221.4332 -42.6573,23.0983 -85.3085,46.2034 -127.9668,69.2999 -34.4321,-30.059 -68.8606,-60.1159 -103.3,-90.1667 41.557,-36.467 82.9421,-73.1294 124.4668,-109.6333 32.3322,6.585 64.6308,13.4043 96.9333,20.1333 19.4363,-42.2037 38.8638,-84.4296 58.2999,-126.6333 z"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="g4432"
+           transform="matrix(0.94814815,0,0,0.94814815,8712.4795,2049.7446)">
+          <rect
+             y="-3676.658"
+             x="2467.407"
+             height="1152"
+             width="1237.3334"
+             id="rect4434"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+          <g
+             transform="matrix(0.96194287,0,0,0.96194287,-114.15227,-431.68715)"
+             id="g4436">
+            <path
+               sodipodi:nodetypes="ccccssccccccccscccccccscccc"
+               inkscape:connector-curvature="0"
+               id="path4438"
+               d="m 2855.6961,-2497.943 68.5714,-75.7143 38.5714,-82.8571 -71.6736,-138.7447 c 0,0 53.1022,-29.8267 61.6736,-34.1124 8.5715,-4.2858 151.8318,-93.1409 162.8572,-91.4286 29.3662,4.5605 99.0616,26.306 99.0616,26.306 l 158.0812,-39.1632 35.7143,-51.4285 50,-11.4286 c 0,0 86.0907,-35.8802 134.9964,-51.0622 -12.7135,15.1226 -180.7107,102.4908 -180.7107,102.4908 l -18.5714,38.5714 -183.4489,48.6432 c 0,0 -85.1225,-14.3575 -95.1225,-15.7861 -10,-1.4285 -156.7963,95.541 -156.7963,95.541 l 62.5106,118.7448 -44.2857,97.1428 -61.4286,51.4286 -30,21.4286 62.8571,165.7142 -78.5714,102.8572 c 0,0 -95.8976,30.6295 -110,34.2857 -19.2857,5 -115.7143,31.7857 -115.7143,31.7857 l 215.7143,-91.7857 52.8571,-88.5714 z"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8951);enable-background:accumulate"
+               transform="scale(1.0666667)" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g5188"
+       transform="translate(-305.31563,-171.87488)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_2\bolt_animation_2_01.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\1.png"
+         id="g5059">
+        <rect
+           y="-1563.6654"
+           x="1397.5823"
+           height="1219.6602"
+           width="1219.6602"
+           id="rect5043"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+        <g
+           id="g4362"
+           transform="matrix(0.89340686,0,0,0.89340686,523.78385,1542.1183)">
+          <g
+             id="g4364"
+             transform="translate(-768,9.1428573)">
+            <rect
+               y="-3485.4802"
+               x="1746.0521"
+               height="1222.5859"
+               width="853.33331"
+               id="rect4366"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+            <g
+               id="g4368">
+              <path
+                 sodipodi:nodetypes="ccccccccccccccccccccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4370"
+                 d="m 2865.8163,404.59062 397.4015,334.00669 339.2465,-149.66749 633.5923,444.01358 -364.191,134.7007 39.9115,424.0579 -204.5456,324.2796 154.6563,434.0358 -79.8227,-434.0358 244.457,-319.2906 -24.9445,-384.1466 493.9027,-174.6121 -885.9245,-626.25333 -336.3602,182.23976 -234.4789,-204.54556 294.346,-259.42368 264.4127,54.87809 174.6119,-379.15766 -284.3683,-144.67859 149.6676,169.62316 -109.7561,249.445838 -248.2355,-91.011012 z"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8926);enable-background:accumulate"
+                 transform="matrix(0.3784734,0,0,0.3784734,779.69131,-3262.3706)" />
+              <path
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+                 d="m 1864.3265,-3109.2437 150.406,126.4126 128.3957,-56.6452 239.7979,168.0473 -137.8367,50.9807 15.1055,160.4946 -77.4151,122.7312 58.5333,164.271 -30.2108,-164.271 92.5205,-120.843 -9.4408,-145.3892 186.929,-66.0861 -335.2988,-237.0203 -127.3034,68.9729 -88.7441,-77.415 111.4021,-98.185 100.0732,20.77 66.086,-143.5012 -107.6258,-54.757 56.6452,64.1979 -41.5397,94.4086 -93.9507,-34.4452 z"
+                 id="path4372"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="ccccccccccccccccccccccc" />
+              <path
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+                 d="m 2164.289,-3333.4289 c 3.9277,4.794 2.3524,11.803 -0.5914,16.6765 -14.385,32.7149 -28.6928,65.4747 -43.2643,98.0955 -32.2758,-11.955 -64.6065,-23.7605 -96.9247,-35.6002 -47.8729,48.1175 -95.7458,96.2348 -143.6188,144.3521 45.4996,38.218 90.9993,76.436 136.4988,114.6539 42.6464,-18.7407 85.2175,-37.6524 127.9004,-56.3098 87.1083,61.0362 174.2152,122.0746 261.324,183.1102 -49.7211,18.3141 -99.437,36.6423 -149.0948,55.127 4.8687,52.0047 9.7392,104.0091 14.6066,156.0138 -25.6065,40.4487 -51.1577,80.9327 -76.7236,121.4072 4.2421,11.8903 8.4841,23.7808 12.7262,35.6711 -2.428,-13.2151 -4.8604,-26.4294 -7.2856,-39.6451 30.9053,-40.5361 61.9336,-80.9786 92.856,-121.5018 -3.2048,-49.789 -6.4125,-99.5778 -9.6156,-149.3669 58.4575,-20.6153 116.9044,-41.2614 175.3397,-61.9395 -104.4783,-73.818 -208.9567,-147.6362 -313.4351,-221.4542 -42.6573,23.0984 -85.3131,46.1996 -127.9713,69.2961 -34.4321,-30.059 -68.8721,-60.1088 -103.3115,-90.1595 41.5569,-36.467 82.9578,-73.1114 124.4823,-109.6153 32.3324,6.5849 64.6221,13.3773 96.9246,20.1063 19.4363,-42.2037 38.8725,-84.4074 58.3086,-126.6112 -16.3847,-8.3145 -32.7695,-16.6291 -49.1542,-24.9436 6.6745,7.5458 13.3491,15.0916 20.0237,22.6374 z"
+                 id="path4374"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+        </g>
+        <g
+           transform="matrix(0.94814815,0,0,0.94814815,-941.88512,2049.7446)"
+           id="g4440">
+          <rect
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+             id="rect4442"
+             width="1237.3334"
+             height="1152"
+             x="2467.407"
+             y="-3676.658" />
+          <g
+             id="g4444"
+             transform="matrix(0.96194287,0,0,0.96194287,-114.15227,-431.68715)">
+            <path
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8951);enable-background:accumulate"
+               d="m 2855.6961,-2497.943 68.5714,-75.7143 38.5714,-82.8571 -71.6736,-138.7447 c 0,0 53.1022,-29.8267 61.6736,-34.1124 8.5715,-4.2858 151.8318,-93.1409 162.8572,-91.4286 29.3662,4.5605 99.0616,26.306 99.0616,26.306 l 158.0812,-39.1632 35.7143,-51.4285 50,-11.4286 c 0,0 86.0907,-35.8802 134.9964,-51.0622 -12.7135,15.1226 -180.7107,102.4908 -180.7107,102.4908 l -18.5714,38.5714 -183.4489,48.6432 c 0,0 -85.1225,-14.3575 -95.1225,-15.7861 -10,-1.4285 -156.7963,95.541 -156.7963,95.541 l 62.5106,118.7448 -44.2857,97.1428 -61.4286,51.4286 -30,21.4286 62.8571,165.7142 -78.5714,102.8572 c 0,0 -95.8976,30.6295 -110,34.2857 -19.2857,5 -115.7143,31.7857 -115.7143,31.7857 l 215.7143,-91.7857 52.8571,-88.5714 z"
+               id="path4446"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="ccccssccccccccscccccccscccc"
+               transform="scale(1.0666667)" />
+          </g>
+        </g>
+        <g
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\b11.png"
+           transform="matrix(-0.94514766,0,0,0.94514766,127.05461,3783.9746)"
+           id="g4262">
+          <g
+             transform="translate(-2311.3143,-1982.7888)"
+             id="g4264">
+            <rect
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+               id="rect4266"
+               width="1155.6571"
+               height="906.35413"
+               x="-255.99994"
+               y="-3483.1604" />
+            <g
+               id="g4268"
+               transform="matrix(0.98333367,0,0,0.98333367,-1628.6689,-3595.9789)">
+              <path
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4055);enable-background:accumulate"
+                 d="m -156.65625,4141.25 70.71875,53.7812 -9.90625,18.375 -62.25,65.0938 127.34375,73.5625 42.4375,-161.2813 131.5625,-16.9687 18,42.2456 15.28125,30.8169 2.87054,8.0938 -3.37054,-18.125 -13.3125,-88.3438 -168,15.4062 L -57.625,4302.5312 -115.65625,4270 -61.875,4189.375 Z"
+                 transform="matrix(1.0847454,0,0,1.0847454,1656.2729,-4283.4099)"
+                 id="path4270"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="ccccccccccccccccc" />
+              <path
+                 sodipodi:nodetypes="ccccccccccccccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4272"
+                 d="m 1486.3407,208.79191 76.7118,58.33891 -10.7457,19.9322 -67.5254,70.6102 138.1355,79.79658 46.0339,-174.94915 142.7118,-18.40672 19.5254,45.82572 16.5763,33.42849 3.1138,8.77972 -3.6562,-19.66101 -14.4406,-95.83053 -182.2373,16.7118 -56.7796,150.37283 -62.9491,-35.28807 58.3389,-87.4576 z"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.59321785;marker:none;enable-background:accumulate" />
+              <path
+                 sodipodi:nodetypes="ccccccccccccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4274"
+                 d="m 1826.883,227.43597 c -56.3492,5.15211 -112.6678,9.25473 -169.0169,14.40683 -19.5656,51.8274 -39.147,104.7146 -58.7119,156.54221 -27.6961,-15.40262 -55.2643,-31.01742 -82.9491,-46.44055 9.1849,-13.74394 31.2657,-46.85981 40.4407,-60.61015 -14.2514,14.85006 -41.3846,49.10729 -55.6271,63.96603 38.4568,22.24335 76.8992,44.50244 115.3559,66.74579 14.8169,-56.24904 35.0482,-108.19142 49.8644,-164.44068 52.7809,-6.74364 100.1756,-17.75229 152.9152,-24.81355 7.5696,27.14239 12.4358,40.76994 12.4358,40.76994 1.5514,-1.14842 10.6596,35.08284 12.2663,33.92748 z m -254.3389,36.50852 c 0.3125,0.90435 0.4981,1.84754 0.5084,2.8135 1.3736,-1.73613 1.6553,-2.20214 -0.5084,-2.8135 z"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.59321785;marker:none;enable-background:accumulate" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g5210"
+       transform="translate(-499.33047,-171.87488)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_2\bolt_animation_2_02.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\2.png"
+         id="g5080">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+           id="rect5045"
+           width="1219.6602"
+           height="1219.6602"
+           x="2811.2573"
+           y="-1563.6654" />
+        <g
+           transform="matrix(0.89340686,0,0,0.89340686,1937.4589,1542.1183)"
+           id="g4412">
+          <g
+             transform="translate(-768,9.1428573)"
+             id="g4414">
+            <rect
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+               id="rect4416"
+               width="853.33331"
+               height="1222.5859"
+               x="1746.0521"
+               y="-3485.4802" />
+            <g
+               id="g4418">
+              <path
+                 transform="matrix(0.3784734,0,0,0.3784734,779.69131,-3262.3706)"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8926);enable-background:accumulate"
+                 d="m 2865.8163,404.59062 397.4015,334.00669 339.2465,-149.66749 633.5923,444.01358 -364.191,134.7007 39.9115,424.0579 -204.5456,324.2796 154.6563,434.0358 -79.8227,-434.0358 244.457,-319.2906 -24.9445,-384.1466 493.9027,-174.6121 -885.9245,-626.25333 -336.3602,182.23976 -234.4789,-204.54556 294.346,-259.42368 264.4127,54.87809 174.6119,-379.15766 -284.3683,-144.67859 149.6676,169.62316 -109.7561,249.445838 -248.2355,-91.011012 z"
+                 id="path4420"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="ccccccccccccccccccccccc" />
+            </g>
+          </g>
+        </g>
+        <g
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\b12.png"
+           id="g4292"
+           transform="matrix(-0.94514766,0,0,0.94514766,3725.2629,1909.9465)">
+          <g
+             id="g4294">
+            <rect
+               y="-3483.1604"
+               x="-255.99994"
+               height="906.35413"
+               width="1155.6571"
+               id="rect4296"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+            <g
+               transform="matrix(0.98333367,0,0,0.98333367,-1628.6689,-3595.9789)"
+               id="g4298">
+              <path
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4063);enable-background:accumulate"
+                 d="m 1083.3438,4141.25 70.7187,53.7812 -9.9063,18.375 -62.25,65.0938 127.3438,73.5625 42.4375,-161.2813 131.5625,-16.9687 17,60.8125 -77.8125,55.1875 79.2187,84.875 -4.25,89.125 -61.9062,46.7187 -40.4937,31.3972 90.7098,-48.6201 45.6589,-26.6521 2.8125,-116 -79.2187,-59.4374 70.7187,-50.9376 -21.2187,-91.9374 -169.75,15.5624 -52.3438,138.625 -58.0312,-32.5312 53.7812,-80.625 z"
+                 transform="matrix(1.0847454,0,0,1.0847454,311.18861,-4283.4099)"
+                 id="path4300"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="cccccccccccccccccccccccc" />
+              <path
+                 sodipodi:nodetypes="cccccccccccccccccccccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4302"
+                 d="m 1486.3408,208.79191 76.7118,58.33891 -10.7458,19.9322 -67.5254,70.6102 138.1356,79.79658 46.0338,-174.94915 142.7119,-18.40672 18.4406,65.96608 -84.4067,59.86439 85.9321,92.06776 -4.6102,96.67794 -67.1524,50.67789 -43.9254,34.05797 98.3971,-52.74043 49.5282,-28.91074 3.0509,-125.83047 -85.9321,-64.47444 76.7117,-55.25433 -23.0168,-99.72867 -184.1356,16.88124 -56.7797,150.37283 -62.949,-35.28807 58.3389,-87.4576 z"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.59321785;marker:none;enable-background:accumulate" />
+              <path
+                 sodipodi:nodetypes="ccccccccccccccccccccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4304"
+                 d="m 1826.8829,227.43597 c -56.349,5.15211 -112.6677,9.25473 -169.0167,14.40683 -19.5656,51.8274 -39.147,104.7146 -58.7119,156.54221 -27.6961,-15.40262 -55.2644,-31.01742 -82.9492,-46.44055 9.1849,-13.74394 31.2658,-46.85981 40.4406,-60.61015 -14.2513,14.85006 -41.3844,49.10729 -55.627,63.96603 38.4568,22.24335 76.8992,44.50244 115.356,66.74579 14.8168,-56.24904 35.0482,-108.19142 49.8643,-164.44068 52.7809,-6.74364 100.1757,-17.75229 152.9151,-24.81355 7.5697,27.14239 15.1415,54.28164 22.712,81.4237 -26.9163,19.08404 -54.9138,40.34017 -81.8306,59.42377 26.9543,28.90315 55.0683,55.58886 81.9322,84.57618 -1.5334,35.2538 0.8846,59.69365 -0.6101,94.94918 -24.5509,18.53125 -49.4081,40.75638 -73.3842,57.73047 l 34.3087,-19.64734 c 19.7428,-16.52891 31.8012,-17.73125 51.55,-34.25268 0.9162,-38.71293 1.8298,-77.42262 2.7457,-116.13555 -30.9096,-23.20672 -53.2201,-47.45664 -84.1694,-70.61009 27.5285,-19.79476 46.438,-38.50987 73.9661,-58.30507 z m -254.3388,36.50852 c 0.3125,0.90435 0.4981,1.84754 0.5084,2.8135 1.3736,-1.73613 1.6553,-2.20214 -0.5084,-2.8135 z"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.59321785;marker:none;enable-background:accumulate" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g5226"
+       transform="translate(-607.14532,-171.87488)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_2\bolt_animation_2_03.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\3.png"
+         id="g5095">
+        <rect
+           y="-1563.6654"
+           x="4138.7324"
+           height="1219.6602"
+           width="1219.6602"
+           id="rect5047"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+        <g
+           id="g4422"
+           transform="matrix(0.89340686,0,0,0.89340686,3264.9339,1542.1183)">
+          <g
+             id="g4424"
+             transform="translate(-768,9.1428573)">
+            <rect
+               y="-3485.4802"
+               x="1746.0521"
+               height="1222.5859"
+               width="853.33331"
+               id="rect4426"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+            <g
+               id="g4428">
+              <path
+                 sodipodi:nodetypes="ccccccccccccccccccccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4430"
+                 d="m 2865.8163,404.59062 397.4015,334.00669 339.2465,-149.66749 633.5923,444.01358 -364.191,134.7007 39.9115,424.0579 -204.5456,324.2796 154.6563,434.0358 -79.8227,-434.0358 244.457,-319.2906 -24.9445,-384.1466 493.9027,-174.6121 -885.9245,-626.25333 -336.3602,182.23976 -234.4789,-204.54556 294.346,-259.42368 264.4127,54.87809 174.6119,-379.15766 -284.3683,-144.67859 149.6676,169.62316 -109.7561,249.445838 -248.2355,-91.011012 z"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8926);enable-background:accumulate"
+                 transform="matrix(0.3784734,0,0,0.3784734,779.69131,-3262.3706)" />
+            </g>
+          </g>
+        </g>
+        <g
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\b13.png"
+           transform="matrix(-0.94514766,0,0,0.94514766,5052.7379,1909.9465)"
+           id="g4306">
+          <g
+             id="g4308">
+            <rect
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+               id="rect4310"
+               width="1155.6571"
+               height="906.35413"
+               x="-255.99994"
+               y="-3483.1604" />
+            <g
+               id="g4312"
+               transform="matrix(0.98333367,0,0,0.98333367,-1628.6689,-3595.9789)">
+              <path
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4071);enable-background:accumulate"
+                 d="m 2323.3438,4141.25 70.7187,53.7812 -9.9063,18.375 -62.25,65.0938 127.3438,73.5625 42.4375,-161.2813 131.5625,-16.9687 17,60.8125 -77.8125,55.1875 79.2187,84.875 -4.25,89.125 -80.625,60.8437 79.2188,93.375 94.7812,56.5938 -14.1562,50.9375 5.6562,91.9687 206.5626,-19.8124 7.5312,-21.625 33.4688,-170 -40.8352,74.1007 -32.6961,56.6805 -124.5,9.9062 24.0625,-90.5312 -137.25,-73.5938 -48.0938,-65.0624 60.8438,-50.9376 2.8125,-116 -79.2187,-59.4374 70.7187,-50.9376 -21.2187,-91.9374 -169.75,15.5624 -52.3438,138.625 -58.0312,-32.5312 53.7812,-80.625 z"
+                 transform="matrix(1.0847454,0,0,1.0847454,-1033.8957,-4283.4099)"
+                 id="path4314"
+                 inkscape:connector-curvature="0"
+                 sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccc" />
+              <path
+                 sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4316"
+                 d="m 1486.3408,208.79191 76.7118,58.33891 -10.7458,19.9322 -67.5254,70.6102 138.1356,79.79658 46.0339,-174.94915 142.7118,-18.40672 18.4406,65.96608 -84.4067,59.86439 85.9321,92.06776 -4.6102,96.67794 -87.4576,65.99992 85.9323,101.2881 102.8134,61.38986 -15.3558,55.25422 6.1355,99.76262 224.0678,-21.49141 8.1695,-23.45761 36.3051,-184.40672 -44.2958,80.38039 -35.4669,61.48391 -135.0508,10.74571 26.1016,-98.2033 -148.8813,-79.83054 -52.1695,-70.57614 66,-55.25432 3.0509,-125.83047 -85.9321,-64.47444 76.7117,-55.25433 -23.0168,-99.72867 -184.1356,16.88124 -56.7797,150.37283 -62.949,-35.28807 58.3389,-87.4576 z"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.59321785;marker:none;enable-background:accumulate" />
+              <path
+                 sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4318"
+                 d="m 1826.8829,227.43597 c -56.349,5.15211 -112.6677,9.25473 -169.0167,14.40683 -19.5656,51.8274 -39.147,104.7146 -58.7119,156.54221 -27.6961,-15.40262 -55.2644,-31.01742 -82.9492,-46.44055 9.1849,-13.74394 31.2658,-46.85981 40.4407,-60.61015 -14.2514,14.85006 -41.3845,49.10729 -55.6271,63.96603 38.4568,22.24335 76.8992,44.50244 115.356,66.74579 14.8168,-56.24904 35.0482,-108.19142 49.8643,-164.44068 52.7809,-6.74364 100.1757,-17.75229 152.9151,-24.81355 7.5697,27.14239 15.1415,54.28164 22.712,81.4237 -26.9163,19.08404 -54.9138,40.34017 -81.8306,59.42377 26.9543,28.90315 55.0683,55.58886 81.9322,84.57618 -1.5334,35.2538 0.8847,59.69365 -0.6101,94.94918 -27.5702,20.8103 -56.2199,54.57593 -82.7119,69.99992 25.8901,30.54741 47.4658,64.33397 73.3559,94.88138 36.0766,21.52438 78.635,39.79822 114.7119,61.32196 -5.6437,20.37574 -12.39,39.69202 -18.0339,60.06777 1.7792,29.1687 0.3225,47.54309 2.1017,76.71189 69.0659,-6.63094 132.7645,-2.48786 201.8304,-9.11869 15.4948,-44.73826 14.6753,-89.95978 30.2415,-136.5881 0,0 -30.3403,83.57149 -43.3602,107.09658 -51.9651,4.08049 -113.629,12.54845 -165.5931,16.64412 9.2279,-34.80731 13.0762,-83.63376 22.3051,-118.44075 -47.906,-25.67342 -85.0203,-54.71065 -133.0169,-80.16941 -19.7503,-26.70979 -39.3113,-53.4966 -59.1526,-80.13556 23.2637,-19.48376 46.5223,-38.96991 69.7966,-58.44066 0.9162,-38.71293 1.8298,-77.42262 2.7458,-116.13555 -30.9097,-23.20672 -53.2202,-47.45664 -84.1695,-70.61009 27.5285,-19.79476 46.438,-38.50987 73.9661,-58.30507 z m -254.3388,36.50852 c 0.3125,0.90435 0.4981,1.84754 0.5084,2.8135 1.3736,-1.73613 1.6553,-2.20214 -0.5084,-2.8135 z"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.59321785;marker:none;enable-background:accumulate" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g5242"
+       transform="translate(-792.54037,-171.87488)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_2\bolt_animation_2_04.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\4.png"
+         id="g5110">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+           id="rect5049"
+           width="1219.6602"
+           height="1219.6602"
+           x="5543.7876"
+           y="-1563.6654" />
+        <g
+           id="g4250"
+           transform="matrix(0.94814815,0,0,0.94814815,3204.3201,2049.7446)">
+          <rect
+             y="-3676.658"
+             x="2467.407"
+             height="1152"
+             width="1237.3334"
+             id="rect4252"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+          <g
+             transform="matrix(0.96194287,0,0,0.96194287,-114.15227,-431.68715)"
+             id="g4254">
+            <path
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4195);enable-background:accumulate"
+               d="m 782.40625,6341 c -47.04449,14.6042 -129.84375,49.125 -129.84375,49.125 l -48.09375,10.9688 -34.375,49.5 -66.19643,21.4464 -89.74107,29.0848 99.33036,-10.4331 77.23214,-14.0044 17.875,-37.0937 c 0,0 161.58284,-84.0467 173.8125,-98.5938 z"
+               transform="matrix(1.108867,0,0,1.108867,2965.5281,-10282.069)"
+               id="path4256"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccccccc" />
+            <path
+               sodipodi:nodetypes="cccccccccc"
+               inkscape:connector-curvature="0"
+               id="path4258"
+               d="m 3833.1126,-3250.7432 c -52.1661,16.1941 -143.9795,54.4731 -143.9795,54.4731 l -53.3296,12.1629 -38.1173,54.8889 -73.403,23.7812 -99.5109,32.2512 110.1442,-11.5689 85.6401,-15.529 19.821,-41.132 c 0,0 179.1739,-93.1966 192.735,-109.3274 z"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.76206875;marker:none;enable-background:accumulate" />
+            <path
+               sodipodi:nodetypes="cccccccc"
+               inkscape:connector-curvature="0"
+               id="path4260"
+               d="m 3730.577,-3204.5521 -91.8627,31.7414 -33.4046,52.7059 -134.5986,36.6223 76.8435,-13.9995 66.9033,-14.9994 31.3948,-42.3102 z"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.76206875;marker:none;enable-background:accumulate" />
+          </g>
+        </g>
+        <g
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\b14.png"
+           id="g4320"
+           transform="matrix(-0.94514766,0,0,0.94514766,6457.7932,1909.9465)">
+          <g
+             id="g4322">
+            <rect
+               y="-3483.1604"
+               x="-255.99994"
+               height="906.35413"
+               width="1155.6571"
+               id="rect4324"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+            <g
+               transform="matrix(0.98333367,0,0,0.98333367,-1628.6689,-3595.9789)"
+               id="g4326">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path4328"
+                 d="m 1455.2952,269.12906 -63.305,66.1825 129.4875,74.81499 43.1625,-164.01748 133.8037,-17.265 17.2651,61.86624 -79.1313,56.11126 80.57,86.32498 -4.3163,90.64125 -82.0087,61.86625 80.57,94.9575 96.3962,57.54998 -14.3875,51.79497 5.755,93.51881 210.0575,-20.14253 66.1825,-189.915 110.7838,4.31626 35.9686,-182.72123 105.0288,-64.74376 -140.9974,53.23376 -25.8976,143.87498 -116.5387,-10.07124 -67.6212,184.16001 -126.6101,10.07123 24.4588,-92.07998 -139.5588,-74.81503 -48.9174,-66.18249 61.8663,-51.79499 2.8775,-117.97749 -80.57,-60.4275 71.9374,-51.795 -21.5812,-93.51874 -172.6499,15.82625 -53.2339,140.99749 -58.9887,-33.09124 54.6726,-82.00875 -96.3963,-48.9175 71.9375,54.6725 z"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8913);enable-background:accumulate"
+                 transform="scale(1.0666667)" />
+              <path
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+                 d="m 1552.3149,287.071 -67.5254,70.59466 138.12,79.80266 46.04,-174.95198 142.724,-18.416 18.4161,65.99066 -84.4067,59.85201 85.9413,92.07998 -4.604,96.684 -87.476,65.99066 85.9413,101.288 102.8227,61.38665 -15.3467,55.24797 6.1387,99.75339 224.0613,-21.48536 70.5947,-202.576 118.1693,4.60401 38.3666,-194.90265 112.0307,-69.06001 -150.3973,56.78268 -27.6241,153.46665 -124.3079,-10.74266 -72.1293,196.43734 -135.0508,10.74265 26.0894,-98.21865 -148.8627,-79.80269 -52.1786,-70.59466 65.9908,-55.24799 3.0693,-125.84266 -85.9413,-64.456 76.7332,-55.248 -23.02,-99.75332 -184.1598,16.88133 -56.7829,150.39733 -62.9213,-35.29733 58.3175,-87.476 -102.8227,-52.17866 76.7333,58.31733 z"
+                 id="path4330"
+                 inkscape:connector-curvature="0" />
+              <path
+                 sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccc"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+                 d="m 1657.8518,241.82759 c -19.5655,51.82747 -39.132,104.73205 -58.6969,156.55974 -27.6961,-15.40271 -55.2792,-31.00764 -82.964,-46.43081 9.1849,-13.74389 31.2919,-46.88787 40.4668,-60.63829 -14.2514,14.85011 -41.3978,49.12883 -55.6403,63.98759 38.4568,22.24332 76.9135,44.48663 115.3701,66.72993 14.817,-56.24901 35.0227,-108.18769 49.8388,-164.43693 52.781,-6.74361 100.1831,-17.73343 152.9226,-24.79469 7.5696,27.14236 15.1412,54.28414 22.7117,81.42625 -26.9163,19.08402 -54.9067,40.32784 -81.8234,59.41141 26.9543,28.90318 55.0656,55.57745 81.9295,84.56476 -1.5334,35.25374 0.8825,59.7159 -0.6124,94.97134 -27.5702,20.81036 -56.2156,54.55354 -82.7076,69.97749 25.89,30.54738 47.4703,64.32722 73.3604,94.8746 36.0766,21.52442 78.6176,39.81737 114.6946,61.34116 -5.6438,20.37579 -12.3658,39.67389 -18.0098,60.04964 1.7792,29.16875 0.3261,47.56253 2.1053,76.73126 69.0659,-6.63086 132.7443,-2.48676 201.8103,-9.11762 23.5067,-67.87112 47.3049,-142.1061 70.7596,-209.99524 39.0191,1.54063 80.1935,11.69321 119.2131,13.22416 12.409,-63.612 26.0642,-125.03607 38.6445,-188.61433 8.5144,-5.23843 17.0262,-10.48129 25.5396,-15.72143 -15.3061,5.76188 -30.6122,11.52377 -45.9183,17.28564 -9.3377,52.32815 -18.7801,117.56752 -28.1112,169.89685 -41.9682,-3.63311 -79.626,-16.96788 -121.594,-20.6026 -23.8563,65.11995 -47.8524,139.88615 -71.6523,205.02676 -51.9652,4.08051 -113.6223,12.54227 -165.5863,16.63794 9.2279,-34.80721 13.0708,-83.62123 22.2997,-118.42817 -47.9059,-25.67353 -85.0014,-54.71062 -132.998,-80.16943 -19.7502,-26.70979 -39.3417,-53.50586 -59.183,-80.14486 23.2636,-19.48374 46.5398,-38.95217 69.8142,-58.42293 0.9162,-38.71295 1.8323,-77.42593 2.7484,-116.13889 -30.9097,-23.20674 -53.2128,-47.47298 -84.1622,-70.62649 27.5285,-19.79474 46.4359,-38.51341 73.964,-58.30871 -6.4954,-28.16131 -12.9907,-56.32261 -19.4861,-84.48392 -56.3491,5.15209 -112.6982,9.22672 -169.0474,14.37882 z m -85.3146,22.12778 c 0.3125,0.90438 0.4934,1.85316 0.5038,2.81908 1.3735,-1.73617 1.6599,-2.20763 -0.5038,-2.81908 z"
+                 id="path4332"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g5259"
+       transform="translate(-5804.8557,1047.7853)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_2\bolt_animation_2_05.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\5.png"
+         id="g5126">
+        <rect
+           y="-1563.6654"
+           x="6897.1226"
+           height="1219.6602"
+           width="1219.6602"
+           id="rect5051"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+        <g
+           transform="matrix(0.94814815,0,0,0.94814815,4557.6549,2049.7446)"
+           id="g4238">
+          <rect
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+             id="rect4240"
+             width="1237.3334"
+             height="1152"
+             x="2467.407"
+             y="-3676.658" />
+          <g
+             id="g4242"
+             transform="matrix(0.96194287,0,0,0.96194287,-114.15227,-431.68715)">
+            <path
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4189);enable-background:accumulate"
+               d="m 2033.8438,6341 c -47.0445,14.6042 -129.875,49.125 -129.875,49.125 l -48.0938,10.9688 -34.3438,49.5 -152.0624,37.6562 c 0,0 -67.0327,-20.9256 -95.2813,-25.3125 -10.6058,-1.6471 -148.4422,83.8461 -156.6875,87.9687 -8.2452,4.1226 -59.3125,32.8126 -59.3125,32.8126 l 12.8706,18.3303 89.6294,115.2634 -42.4375,-111.8304 5.0938,-5.2946 c 0,0 141.2243,-93.2804 150.8437,-91.9063 9.6194,1.3743 91.5,15.1876 91.5,15.1876 l 176.4687,-46.7813 17.8438,-37.0937 c 0,0 161.6141,-84.0467 173.8438,-98.5938 z"
+               transform="matrix(1.108867,0,0,1.108867,1577.8603,-10282.069)"
+               id="path4244"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccsscccccccccc" />
+            <path
+               sodipodi:nodetypes="cccccsscccccccccc"
+               inkscape:connector-curvature="0"
+               id="path4246"
+               d="m 3833.1225,-3250.7432 c -52.1661,16.1941 -144.0141,54.4731 -144.0141,54.4731 l -53.3296,12.1629 -38.0827,54.8889 -168.617,41.7557 c 0,0 -74.3303,-23.2037 -105.6543,-28.0682 -11.7604,-1.8264 -164.6026,92.9742 -173.7456,97.5456 -9.1428,4.5714 -65.7697,36.3848 -65.7697,36.3848 l 14.2718,20.3259 99.3871,127.8118 -47.0575,-124.0051 5.6483,-5.871 c 0,0 156.599,-103.4355 167.2656,-101.9118 10.6667,1.5239 101.4613,16.841 101.4613,16.841 l 195.6804,-51.8742 19.7864,-41.132 c 0,0 179.2085,-93.1966 192.7696,-109.3274 z"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.76206875;marker:none;enable-background:accumulate" />
+            <path
+               sodipodi:nodetypes="ccccccccccccccc"
+               inkscape:connector-curvature="0"
+               id="path4248"
+               d="m 3730.5869,-3204.5521 -91.8627,31.7414 -33.4047,52.7059 -182.3392,40.9587 -96.5408,-24.1871 -227.0405,129.5295 39.5678,51.5375 32.068,42.0726 -17.1923,-40.3201 -16.3262,-42.6172 172.1863,-112.7579 114.2826,18.2616 190.4825,-54.8542 31.3949,-42.3102 z"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.76206875;marker:none;enable-background:accumulate" />
+          </g>
+        </g>
+        <g
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\b15.png"
+           transform="matrix(-3.1371039,0,0,3.1371039,6524.3331,-16152.337)"
+           id="g4400">
+          <rect
+             y="4708.2222"
+             x="-487.31339"
+             height="273.06668"
+             width="348.17676"
+             id="rect4402"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8913);enable-background:accumulate"
+             d="m 1455.2952,269.12906 -63.305,66.1825 129.4875,74.81499 43.1625,-164.01748 133.8037,-17.265 17.2651,61.86624 -79.1313,56.11126 80.57,86.32498 -4.3163,90.64125 -82.0087,61.86625 80.57,94.9575 96.3962,57.54998 -14.3875,51.79497 5.755,93.51881 210.0575,-20.14253 66.1825,-189.915 110.7838,4.31626 35.9686,-182.72123 105.0288,-64.74376 -140.9974,53.23376 -25.8976,143.87498 -116.5387,-10.07124 -67.6212,184.16001 -126.6101,10.07123 24.4588,-92.07998 -139.5588,-74.81503 -48.9174,-66.18249 61.8663,-51.79499 2.8775,-117.97749 -80.57,-60.4275 71.9374,-51.795 -21.5812,-93.51874 -172.6499,15.82625 -53.2339,140.99749 -58.9887,-33.09124 54.6726,-82.00875 -96.3963,-48.9175 71.9375,54.6725 z"
+             id="path4404"
+             inkscape:connector-curvature="0"
+             transform="matrix(0.3160097,0,0,0.3160097,-900.87153,4674.2324)" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g5272"
+       transform="translate(-5947.1507,1047.7853)"
+       inkscape:export-filename="C:\Users\rober\Desktop\bolt_effect\keyframe\bolt_animation_2\bolt_animation_2_06.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         inkscape:export-ydpi="30"
+         inkscape:export-xdpi="30"
+         inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\6.png"
+         id="g5138">
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+           id="rect5053"
+           width="1219.6602"
+           height="1219.6602"
+           x="8259.0771"
+           y="-1563.6654" />
+        <g
+           transform="translate(8392.6299,-7076.9865)"
+           id="g4276">
+          <g
+             id="g4278"
+             transform="matrix(0.89340686,0,0,0.89340686,-1007.3507,8619.1047)">
+            <g
+               id="g4280"
+               transform="translate(-768,9.1428573)">
+              <rect
+                 y="-3485.4802"
+                 x="1746.0521"
+                 height="1222.5859"
+                 width="853.33331"
+                 id="rect4282"
+                 style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+              <g
+                 id="g4284">
+                <path
+                   sodipodi:nodetypes="cccccccccccccc"
+                   inkscape:connector-curvature="0"
+                   id="path4286"
+                   transform="matrix(1.0666667,0,0,1.0666667,2017.5238,-8816.762)"
+                   d="m 77.03125,5086.9688 53.125,60.1874 -38.96875,88.5 -88.0625,-32.3124 -142.59375,143.2812 128.4375,100.625 -13.75,-30.6562 -38.822653,-45.9188 -18.677347,-25.2688 6.4375,-5.6562 98,-86.4062 93.8125,19.4687 61.96875,-134.5313 z"
+                   style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4211);enable-background:accumulate" />
+                <path
+                   style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+                   d="m 2099.6905,-3390.662 56.6667,64.1999 -41.5667,94.4 -93.9333,-34.4665 -152.1,152.8332 137,107.3334 -14.6667,-32.7 -41.4108,-48.98 -19.9225,-26.9534 6.8666,-6.0333 104.5334,-92.1666 100.0666,20.7666 66.1,-143.5 z"
+                   id="path4288"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cccccccccccccc" />
+                <path
+                   style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+                   d="m 2144.2572,-3356.0621 20.0333,22.6334 c 3.9278,4.794 2.3438,11.7932 -0.6,16.6667 -14.385,32.7149 -28.6951,65.4791 -43.2667,98.1 -32.2757,-11.9552 -64.5818,-23.7604 -96.9,-35.6 -47.8728,48.1174 -93.0937,91.6779 -140.9666,139.7952 29.0908,24.4351 53.3542,44.8163 82.445,69.2514 l 22.8558,18.0059 -24.7974,-35.5742 c -20.7631,-18.1199 -28.6057,-34.0933 -49.3701,-52.2117 41.5569,-36.467 82.9754,-73.1294 124.5,-109.6333 32.3324,6.585 64.6308,13.4043 96.9333,20.1333 19.4363,-42.2037 38.8639,-84.4296 58.3,-126.6333 z"
+                   id="path4290"
+                   inkscape:connector-curvature="0"
+                   sodipodi:nodetypes="cccccccccccccc" />
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           id="g4376"
+           transform="matrix(0.94814815,0,0,0.94814815,5919.6102,2049.7446)">
+          <rect
+             y="-3676.658"
+             x="2467.407"
+             height="1152"
+             width="1237.3334"
+             id="rect4378"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate" />
+          <g
+             transform="matrix(0.96194287,0,0,0.96194287,-114.15227,-431.68715)"
+             id="g4380">
+            <path
+               sodipodi:nodetypes="cccccssccccccccccccccccc"
+               inkscape:connector-curvature="0"
+               id="path4382"
+               d="m 3833.1176,-3250.7432 c -52.1661,16.1941 -143.9796,54.4731 -143.9796,54.4731 l -53.3642,12.1629 -38.0826,54.8889 -168.6171,41.7557 c 0,0 -74.3302,-23.2037 -105.6541,-28.0682 -11.7606,-1.8264 -164.5681,92.9742 -173.711,97.5456 -9.1429,4.5714 -65.8043,36.3848 -65.8043,36.3848 l 76.4424,147.9991 -41.132,88.3628 -73.1505,80.7741 57.7104,140.4399 c 16.5044,38.7997 30.4346,67.1854 30.4346,67.1854 -7.6133,-37.1564 -26.2622,-89.9743 -33.7462,-126.1286 l -22.3803,-72.3486 31.9839,-22.8703 65.527,-54.8544 47.2309,-103.6097 -66.6706,-126.6881 c 0,0 156.5989,-103.4355 167.2657,-101.9118 10.6666,1.5239 101.4613,16.841 101.4613,16.841 l 195.6803,-51.8742 19.7863,-41.132 c 0,0 179.2085,-93.1966 192.7697,-109.3274 z"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.76206875;marker:none;enable-background:accumulate" />
+            <path
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter4201);enable-background:accumulate"
+               d="m 3268.125,6341 c -47.0445,14.6042 -129.8438,49.125 -129.8438,49.125 l -48.125,10.9688 -34.3437,49.5 -152.0625,37.6562 c 0,0 -67.0326,-20.9256 -95.2812,-25.3125 -10.6059,-1.6471 -148.411,83.8461 -156.6563,87.9687 -8.2452,4.1226 -59.3437,32.8126 -59.3437,32.8126 l 68.9374,133.4687 -37.0937,79.6875 -65.9687,72.8438 52.0445,126.6517 c 14.884,34.9904 27.4465,60.5893 27.4465,60.5893 -6.8658,-33.5085 -23.6838,-81.1408 -30.433,-113.7455 l -20.183,-65.2455 28.8437,-20.625 59.0937,-49.4688 42.5938,-93.4375 -60.125,-114.25 c 0,0 141.2243,-93.2804 150.8438,-91.9063 9.6194,1.3743 91.5,15.1876 91.5,15.1876 l 176.4687,-46.7813 17.8437,-37.0937 c 0,0 161.6141,-84.0467 173.8438,-98.5938 z"
+               transform="matrix(1.108867,0,0,1.108867,209.20163,-10282.069)"
+               id="path4384"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccssccccccccccccccccc" />
+            <path
+               sodipodi:nodetypes="cccccccccccccccccccc"
+               inkscape:connector-curvature="0"
+               id="path4386"
+               d="m 3730.582,-3204.5521 -91.8627,31.7414 -33.4046,52.7059 -182.3393,40.9587 -96.506,-24.1871 -227.0753,129.5295 74.6752,143.2517 -48.7554,100.5604 -71.6258,70.1013 52.0077,127.0146 -14.8012,-60.5768 -20.2617,-69.2447 91.2389,-76.4425 42.6914,-100.5604 -67.0518,-123.4308 172.1863,-112.7579 114.2825,18.2616 190.4826,-54.8542 31.3948,-42.3102 z"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.76206875;marker:none;enable-background:accumulate" />
+          </g>
+        </g>
+        <g
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="C:\Users\Robert\Desktop\bolt effect\gif\b16.png"
+           id="g4406"
+           transform="matrix(-3.1371039,0,0,3.1371039,7886.2883,-16152.337)">
+          <rect
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.69911505;fill:none;stroke:none;stroke-width:7.4666667;marker:none;enable-background:accumulate"
+             id="rect4408"
+             width="348.17676"
+             height="273.06668"
+             x="-487.31339"
+             y="4708.2222" />
+          <path
+             transform="matrix(0.3160097,0,0,0.3160097,-900.87153,4674.2324)"
+             inkscape:connector-curvature="0"
+             id="path4410"
+             d="m 1455.2952,269.12906 -63.305,66.1825 129.4875,74.81499 43.1625,-164.01748 133.8037,-17.265 17.2651,61.86624 -79.1313,56.11126 80.57,86.32498 -4.3163,90.64125 -82.0087,61.86625 80.57,94.9575 96.3962,57.54998 -14.3875,51.79497 5.755,93.51881 210.0575,-20.14253 66.1825,-189.915 110.7838,4.31626 35.9686,-182.72123 105.0288,-64.74376 -140.9974,53.23376 -25.8976,143.87498 -116.5387,-10.07124 -67.6212,184.16001 -126.6101,10.07123 24.4588,-92.07998 -139.5588,-74.81503 -48.9174,-66.18249 61.8663,-51.79499 2.8775,-117.97749 -80.57,-60.4275 71.9374,-51.795 -21.5812,-93.51874 -172.6499,15.82625 -53.2339,140.99749 -58.9887,-33.09124 54.6726,-82.00875 -96.3963,-48.9175 71.9375,54.6725 z"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.37610623;fill:#00dede;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7;marker:none;filter:url(#filter8913);enable-background:accumulate" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

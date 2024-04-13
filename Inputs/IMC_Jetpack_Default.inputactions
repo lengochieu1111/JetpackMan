@@ -1,0 +1,65 @@
+{
+    "name": "IMC_Jetpack_Default",
+    "maps": [
+        {
+            "name": "DefaultInput",
+            "id": "5c26ad9b-8283-464f-bf6a-4901bec61c36",
+            "actions": [
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "035ee3f0-35ba-44a6-994b-6d7e9a1501f6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fly",
+                    "type": "Button",
+                    "id": "e3ff9668-27e6-48f2-b07c-7fbfa684f4ae",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7ecff893-10f3-49b7-83dd-2564c265fdb1",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f88436c5-606d-44b2-8e16-71f63cd5778d",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fly",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "04b7a766-97d0-44ee-bb76-416cb88509f6",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fly",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
