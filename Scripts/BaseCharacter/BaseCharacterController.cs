@@ -1,10 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UMVCS.Architecture;
 using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
 
 namespace MVCS.Architecture.BaseCharacter
@@ -16,6 +14,7 @@ namespace MVCS.Architecture.BaseCharacter
         [SerializeField] protected CapsuleComponent capsuleComponent;
         [SerializeField] protected MovementComponent movementComponent;
         [SerializeField] protected HealthComponent healthComponent;
+        [SerializeField] protected AttackComponent attackComponent;
         [SerializeField] private Rigidbody2D _rigidbody;
         [SerializeField] protected CapsuleCollider2D capsuleCollider;
 
@@ -25,13 +24,16 @@ namespace MVCS.Architecture.BaseCharacter
         [SerializeField] private bool _isComplytelyDead;
         [SerializeField] private bool _isEndGame;
 
-        private Coroutine _deadCoroutine;
+        [SerializeField] private float _spawnBulletShellCasing = 0.2f;
         [SerializeField] private float _deadCoroutineTime = 2f;
+        private Coroutine _deadCoroutine;
+        private float _timeCounter;
 
         public BaseCharacter Character => character;
         public CapsuleComponent CapsuleComponent => capsuleComponent;
         public MovementComponent MovementComponent => movementComponent;
         public HealthComponent HealthComponent => healthComponent;
+        public AttackComponent AttackComponent  => this.attackComponent;
         public Rigidbody2D Rigidbody => _rigidbody;
         public CapsuleCollider2D CapsuleCollider => capsuleCollider;
         public bool IsLanding
@@ -60,6 +62,9 @@ namespace MVCS.Architecture.BaseCharacter
             private set { this._isEndGame = value; }
         }
 
+        public float SpawnBulletShellCasing => _spawnBulletShellCasing;
+        public float DeadCoroutineTime => _deadCoroutineTime;
+
         /*
          * Service
         */
@@ -83,6 +88,89 @@ namespace MVCS.Architecture.BaseCharacter
          * Health
         */
         public bool IsDead => this.HealthComponent.IsDead;
+
+        /*
+         * Attack
+        */
+        public bool IsCombatMode => this.AttackComponent.IsCombatMode;
+
+        #region LoadComponents
+        protected override void LoadComponents()
+        {
+            base.LoadComponents();
+
+            this.LoadCharacter();
+
+            this.LoadRigidbody();
+            this.LoadCapsuleCollider();
+            this.LoadCapsuleComponent();
+            this.LoadMovementComponent();
+            this.LoadHealthComponent();
+            this.LoadAttackComponent();
+        }
+
+        protected virtual void LoadCharacter()
+        {
+            if (this.character != null) return;
+
+            this.character = GetComponentInParent<BaseCharacter>();
+        }
+
+        protected virtual void LoadMovementComponent()
+        {
+            if (this.movementComponent != null) return;
+
+            this.movementComponent = this.Character?.MovementComponent;
+        }
+
+        protected virtual void LoadCapsuleComponent()
+        {
+            if (this.capsuleComponent != null) return;
+
+            this.capsuleComponent = this.Character?.CapsuleComponent;
+        }
+
+        protected virtual void LoadHealthComponent()
+        {
+            if (this.healthComponent != null) return;
+
+            this.healthComponent = this.Character?.HealthComponent;
+        }
+
+        protected virtual void LoadAttackComponent()
+        {
+            if (this.attackComponent != null) return;
+
+            this.attackComponent = this.Character?.AttackComponent;
+        }
+
+        protected virtual void LoadRigidbody()
+        {
+            if (this._rigidbody != null) return;
+
+            this._rigidbody = this.Character?.Rigidbody;
+        }
+
+        protected virtual void LoadCapsuleCollider()
+        {
+            if (this.capsuleCollider != null) return;
+
+            this.capsuleCollider = this.Character?.CapsuleCollider;
+        }
+        #endregion
+
+        protected override void SetupValues()
+        {
+            base.SetupValues();
+
+            this.IsLanding = false;
+            this.IsExploded = false;
+            this.HasTouchedTheGround = false;
+            this.IsComplytelyDead = false;
+            this.IsEndGame = false;
+
+            this._timeCounter = 0;
+        }
 
         #region Request
         public void SendRunRequest(bool isPressingRunButton)
@@ -113,7 +201,7 @@ namespace MVCS.Architecture.BaseCharacter
         public void RequestDead()
         {
             if (this.IsDead) return;
-
+            this.AttackComponent?.RequestCombatMode(false);
             this.MovementComponent?.RequestDead();
             this.View?.RequestDead();
 
@@ -121,79 +209,33 @@ namespace MVCS.Architecture.BaseCharacter
 
         }
 
+        public void RequestCombatMode(bool isCombatMode)
+        {
+            if (this.IsDead) return;
+            if (this.IsCombatMode == isCombatMode) return;
+
+            this.View?.RequestCombatMode(isCombatMode);
+            this.AttackComponent?.RequestCombatMode(isCombatMode);
+        }
+
         #endregion
-
-        #region LoadComponents
-        protected override void LoadComponents()
-        {
-            base.LoadComponents();
-
-            this.LoadCharacter();
-
-            this.LoadRigidbody();
-            this.LoadCapsuleCollider();
-            this.LoadCapsuleComponent();
-            this.LoadMovementComponent();
-            this.LoadHealthComponent();
-        }
-
-        protected virtual void LoadCharacter()
-        {
-            if (this.character != null) return;
-
-            this.character = GetComponentInParent<BaseCharacter>();
-        }
-        
-        protected virtual void LoadMovementComponent()
-        {
-            if (this.movementComponent != null) return;
-
-            this.movementComponent = this.Character?.MovementComponent;
-        }
-
-        protected virtual void LoadCapsuleComponent()
-        {
-            if (this.capsuleComponent != null) return;
-
-            this.capsuleComponent = this.Character ?.CapsuleComponent;
-        }
-
-        protected virtual void LoadHealthComponent()
-        {
-            if (this.healthComponent != null) return;
-
-            this.healthComponent = this.Character?.HealthComponent;
-        }
-
-        protected virtual void LoadRigidbody()
-        {
-            if (this._rigidbody != null) return;
-
-            this._rigidbody = this.Character?.Rigidbody;
-        }
-        
-        protected virtual void LoadCapsuleCollider()
-        {
-            if (this.capsuleCollider != null) return;
-
-            this.capsuleCollider = this.Character?.CapsuleCollider;
-        }
-        #endregion
-
-        protected override void SetupValues()
-        {
-            base.SetupValues();
-
-            this.IsLanding = false;
-            this.IsExploded = false;
-            this.HasTouchedTheGround = false;
-            this.IsComplytelyDead = false;
-            this.IsEndGame = false;
-        }
 
         private void Update()
         {
             if (this.IsEndGame) return;
+
+            if (this.IsPressFlyButton && !this.IsDead) 
+            {
+                if (this._timeCounter >= this._spawnBulletShellCasing)
+                {
+                    this.FlyingEffect();
+                    this._timeCounter = 0;
+                }
+                else
+                {
+                    this._timeCounter += Time.deltaTime;
+                }
+            }
 
             this.LadingCheck();
 
@@ -205,16 +247,9 @@ namespace MVCS.Architecture.BaseCharacter
             this.HandlesTheAscentAndDescent();
         }
 
-
         /*
          * 
          */
-
-        public void PrepareToStartMatch()
-        {
-
-        }
-
         public void StartMatch()
         {
             this.Rigidbody?.AddForce(new Vector2(150f, 15f));
@@ -231,9 +266,12 @@ namespace MVCS.Architecture.BaseCharacter
 
             this.HealthComponent?.Revive();
             this.View?.Revive();
-            this.Rigidbody?.AddForce(new Vector2(100f, 500f));
             this.Service?.StartMatch();
         }
+
+        /*
+         * 
+         */
 
         #region Death
         private void HandleDeathEvent()
@@ -287,13 +325,13 @@ namespace MVCS.Architecture.BaseCharacter
             float current_X_Axis = this.Rigidbody.velocity.x;
             float current_Y_Axis = this.Rigidbody.velocity.y;
 
-            while (elapsedTime < this._deadCoroutineTime)
+            while (elapsedTime < this.DeadCoroutineTime)
             {
                 elapsedTime += Time.deltaTime;
 
                 this.Rigidbody.velocity = new Vector2(
-                    Mathf.Lerp(current_X_Axis, 0, elapsedTime / this._deadCoroutineTime),
-                    Mathf.Lerp(current_Y_Axis, 0, elapsedTime / this._deadCoroutineTime));
+                    Mathf.Lerp(current_X_Axis, 0, elapsedTime / this.DeadCoroutineTime),
+                    Mathf.Lerp(current_Y_Axis, 0, elapsedTime / this.DeadCoroutineTime));
 
                 yield return null;
             }
@@ -343,19 +381,34 @@ namespace MVCS.Architecture.BaseCharacter
         #region Sound & Effect
         public void PlayFootstepSound()
         {
+            if (SoundManager.Instance.IsActive == false) return;
+
             SoundManager.Instance.AudioSource.volume = 0.06f;
             SoundManager.Instance.PlayAudio(this.Model?.CharacterSO?.FootstepSound);
         }
 
         private void PlayExplosionSound()
         {
+            if (SoundManager.Instance.IsActive == false) return;
+
             SoundManager.Instance.AudioSource.volume = 0.8f;
             SoundManager.Instance.PlayAudio(this.Model?.CharacterSO?.ExplosionSound);
         }
 
         private void PlayExplosionEffect()
         {
-            Transform effect = EffectSpawner.Instance.Spawn(EffectSpawner.Explosion_1, this.transform.position, this.transform.rotation);
+            Transform effect = EffectSpawner.Instance.Spawn(EffectSpawner.ExplosionOne, this.transform.position, this.transform.rotation);
+            effect.gameObject.SetActive(true);
+        }
+
+        private void FlyingEffect()
+        {
+            Vector3 spawnPosition = this.transform.position;
+            Transform poolObject = LevelElementSpawner.Instance.Spawn(LevelElementSpawner.BulletShellCasing, spawnPosition, Quaternion.identity);
+            poolObject.gameObject.SetActive(true);
+
+            spawnPosition.x += 1;
+            Transform effect = EffectSpawner.Instance.Spawn(EffectSpawner.JetEngineSmoke, spawnPosition, Quaternion.identity);
             effect.gameObject.SetActive(true);
         }
         #endregion

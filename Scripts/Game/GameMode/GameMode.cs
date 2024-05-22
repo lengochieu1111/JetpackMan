@@ -1,16 +1,14 @@
 using MVCS.Architecture.BaseCharacter;
 using Patterns.Singleton;
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameMode : Singleton<GameMode>
 {
     [SerializeField] private PlayerState _playerState;
     [SerializeField] private BaseCharacter _player;
     [SerializeField] private HUD _hud;
-    [SerializeField] private int _matchDistance;
     [SerializeField] private float _timeRevive = 0.8f;
     private Coroutine _coroutineRevive;
     private int _matchDistanceLast;
@@ -29,11 +27,6 @@ public class GameMode : Singleton<GameMode>
     {
         get { return this._hud; }
         private set { this._hud = value; }
-    }
-    public int MatchDistance
-    {
-        get { return this._matchDistance; }
-        private set { this._matchDistance = value; }
     }
 
     #region LoadComponents
@@ -69,10 +62,8 @@ public class GameMode : Singleton<GameMode>
     {
         if (GameManager.Instance.MatchState == MatchState.InProgress)
         {
-            this.UpdateMatchDistance();
-            if (this._matchDistanceLast == this.MatchDistance) return;
-            this.UpdatePlayerStateWidget_DistanceCounter();
-            this._matchDistanceLast = this.MatchDistance;
+            float percen = Level.Instance.DistancToStartingPoint * 1.0f / Level.Instance.CurrentLevelDistance;
+            this.UpdatePlayerStateWidget_ProgressLevel(percen);
         }
         else if (GameManager.Instance.MatchState == MatchState.WaitingToRevived)
         {
@@ -80,23 +71,28 @@ public class GameMode : Singleton<GameMode>
             this.UpdateReviveWidget_TimeCounter(str_timeCounter);
         }
     }
+
+    /*
+     * 
+     */
+
     public void PrepareToStartMatch()
     {
         this.PlayerState?.PrepareToStartMatch();
         this.HUD?.PrepareToStartMatch();
-        this.Player?.PrepareToStartMatch();
 
         this.SetStartingPointForPlayer();
         this.Player?.gameObject.SetActive(false);
 
-        this.UpdatePlayerStateWidget_CoinGold();
-        this.UpdatePlayerStateWidget_CoinSilver();
-        this.UpdatePlayerStateWidget_DistanceCounter();
+        this.UpdatePlayerStateWidget_MatchCoin();
+        this.UpdatePlayerStateWidget_MatchCrystal();
+        this.UpdatePlayerStateWidget_ProgressEnergy();
+        this.UpdatePlayerStateWidget_ProgressLevel(0);
     }
 
     public void StartMatch()
     {
-        this.Player.gameObject.SetActive(true);
+        this.Player?.gameObject.SetActive(true);
         this.Player?.StartMatch();
     }
 
@@ -121,14 +117,17 @@ public class GameMode : Singleton<GameMode>
         this._coroutineRevive = StartCoroutine(this.DelayRevive());
     }
 
-    public void ShowResult()
+    public void ShowResult(bool isWin)
     {
-        this.HUD?.ShowResult();
-
+        this.HUD?.ShowResult(isWin);
+        this.Player?.gameObject?.SetActive(false);
         this.UpdateShowResultWidget_MatchCoin();
         this.UpdateShowResultWidget_AllCoin();
-        this.UpdateShowResultWidget_MatchDistance();
     }
+
+    /*
+     * 
+     */
 
     private void SetStartingPointForPlayer()
     {
@@ -158,43 +157,82 @@ public class GameMode : Singleton<GameMode>
         Level.Instance.RevivePlayer();
         this.Player?.RevivePlayer();
     }
+    /*
+     * 
+     */
 
-    private void UpdateMatchDistance()
+    public void NextLevel()
     {
-        this.MatchDistance = (int)(this.Player.transform.position.x - Level.Instance.PlayerStartingPoint.position.x);
+        this.SetStartingPointForPlayer();
+        this.Player?.gameObject.SetActive(false);
     }
 
-    public void HandlePlayerPickUp_Coin(ECoinType coinType)
-    {
-        if (coinType == ECoinType.Silver)
-        {
-            this.PlayerState?.AddOne_SilverCoin();
-            this.UpdatePlayerStateWidget_CoinSilver();
-        }
-        else
-        {
-            this.PlayerState?.AddOne_GoldCoin();
-            this.UpdatePlayerStateWidget_CoinGold();
-        }
+    /*
+     * 
+     */
 
+    public void HandlePlayerPickUp_Coin()
+    {
+        this.PlayerState?.AddOne_MatchCoin();
+        this.UpdatePlayerStateWidget_MatchCoin();
     }
+    
+    public void HandlePlayerPickUp_Crystal()
+    {
+        this.PlayerState?.AddOne_MatchCrytal();
+        this.UpdatePlayerStateWidget_MatchCrystal();
+    }
+    
+    public void HandlePlayerPickUp_Energy(int energy)
+    {
+        if (this.PlayerState == null) return;
+
+        this.PlayerState?.Add_MatchEnergy(energy);
+        this.UpdatePlayerStateWidget_ProgressEnergy();
+
+        if (this.PlayerState.MatchEnergy >= this.PlayerState.MatchEnergyMax)
+        {
+            this.HUD?.PlayerWidget?.SetActive_SkillButton(true);
+        }
+    }
+
+    public void HandlePlayerUseSkill()
+    {
+        this.PlayerState?.Reduce_MatchEnergy(this.PlayerState.MatchEnergyMax);
+        this.UpdatePlayerStateWidget_ProgressEnergy();
+        this.HUD?.PlayerWidget?.SetActive_SkillButton(false);
+    }
+
+    public void HandlePlayerPickUp_DoubleCoin()
+    {
+        this.PlayerState?.DoubleCoin();
+        this.UpdatePlayerStateWidget_MatchCoin();
+    }
+
+    
 
     #region Player State Widget
 
-    private void UpdatePlayerStateWidget_CoinGold()
+    private void UpdatePlayerStateWidget_MatchCoin()
     {
-        this.HUD?.UpdateCoinGold_Text(this.PlayerState.GoldCoin.ToString());
+        this.HUD?.UpdateCoin_Text(this.PlayerState.MatchCoin.ToString());
     }
     
-    private void UpdatePlayerStateWidget_CoinSilver()
+    private void UpdatePlayerStateWidget_MatchCrystal()
     {
-        this.HUD?.UpdateCoinSilver_Text(this.PlayerState.SilverCoin.ToString());
+        this.HUD?.UpdateCrystal_Text(this.PlayerState.MatchCrystal.ToString());
     }
     
-    private void UpdatePlayerStateWidget_DistanceCounter()
+    private void UpdatePlayerStateWidget_ProgressEnergy()
     {
-        this.HUD?.UpdateDistanceCounter_Text(this.MatchDistance.ToString());
+        this.HUD?.UpdateProgress_Energy(this.PlayerState.MatchEnergy * 1.0f / this.PlayerState.MatchEnergyMax);
     }
+    
+    private void UpdatePlayerStateWidget_ProgressLevel(float percen)
+    {
+        this.HUD?.UpdateProgress_Level(percen);
+    }
+    
     #endregion
 
     #region Revive Widget
@@ -202,22 +240,18 @@ public class GameMode : Singleton<GameMode>
     {
         this.HUD?.UpdateTimeCounter_Text(text);
     }
+   
     #endregion
 
     #region Show Result Widget
     private void UpdateShowResultWidget_MatchCoin()
     {
-        this.HUD?.UpdateMatchCoind_Text(this.PlayerState.GoldCoin.ToString());
+        this.HUD?.UpdateMatchCoind_Text(this.PlayerState.MatchCoin.ToString());
     }
 
     private void UpdateShowResultWidget_AllCoin()
     {
-        this.HUD?.UpdateAllCoind_Text((this.PlayerState.AllGoldCoins + this.PlayerState.GoldCoin).ToString());
-    }
-
-    private void UpdateShowResultWidget_MatchDistance()
-    {
-        this.HUD?.UpdateMatchDistance_Text(this.MatchDistance.ToString());
+        this.HUD?.UpdateAllCoind_Text((this.PlayerState.AllCoins + this.PlayerState.MatchCoin).ToString());
     }
     #endregion
 

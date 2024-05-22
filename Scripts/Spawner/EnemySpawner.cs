@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemySpawner : Spawner<EnemySpawner>
 {
     [SerializeField] public static readonly string Dr_Bones = "Dr_Bones";
+    [SerializeField] public static readonly string UFO_One = "UFO_One";
 
     //private void Update()
     //{

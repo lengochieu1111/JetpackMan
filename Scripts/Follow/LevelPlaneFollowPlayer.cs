@@ -45,14 +45,11 @@ public class LevelPlaneFollowPlayer : FollowTarget
     {
         base.LoadComponents();
 
-        this.LoadPlayerCharacter();
         this.LoadLevelScroller();
     }
 
     private void LoadPlayerCharacter()
     {
-        if (this.Target != null) return;
-
         this.Target = GameMode.Instance.Player.gameObject;
     }
     
@@ -70,6 +67,7 @@ public class LevelPlaneFollowPlayer : FollowTarget
 
         this.IsReadyFollowPlayer = false;
         this.IsFollowingDeadPlayer = false;
+        this.IsFollowRespawningPlayer = false;
     }
 
     protected override void Following()
@@ -128,13 +126,12 @@ public class LevelPlaneFollowPlayer : FollowTarget
         }
     }
 
-
     private void FollowRespawnPlayer()
     {
         float distanceToPlayer = this.Target.transform.position.x + this.DistanceToTarget - this.transform.position.x;
         if (distanceToPlayer > 0)
         {
-            this._currentSpeed += Time.deltaTime * 10;
+            this._currentSpeed += Time.deltaTime * 50;
             this.transform.Translate(Vector3.right * this._currentSpeed * Time.deltaTime);
         }
         else
@@ -144,9 +141,14 @@ public class LevelPlaneFollowPlayer : FollowTarget
         }
     }
 
+    public void PrepareToStartMatch()
+    {
+        this.LoadPlayerCharacter();
+    }
 
     public void StartFollowingPlayerAlive()
     {
+
         this.IsFollowing = true;
         this.IsFollowingDeadPlayer = false;
         this.IsFollowRespawningPlayer = false;
@@ -158,7 +160,6 @@ public class LevelPlaneFollowPlayer : FollowTarget
         this.IsFollowing = false;
         this.IsFollowingDeadPlayer = true;
         this.IsFollowRespawningPlayer = false;
-        this.EndAllLevelScroller();
     }
 
     public void StartFollowingRespawnPlayer()
@@ -167,6 +168,12 @@ public class LevelPlaneFollowPlayer : FollowTarget
         this.IsFollowing = false;
         this.IsFollowingDeadPlayer = false;
         this.IsFollowRespawningPlayer = true;
+        this.StartAllLevelScroller();
+    }
+
+    public void StopAllLevelScroller()
+    {
+        this.EndAllLevelScroller();
     }
 
     private void StartAllLevelScroller()
@@ -183,6 +190,14 @@ public class LevelPlaneFollowPlayer : FollowTarget
         {
             levelScroller?.StopScrolling();
         }
+    }
+
+    public void NextLevel()
+    {
+        // this.Target = GameMode.Instance.Player?.gameObject;
+
+        //this.IsFollowing = true;
+        //this.IsReadyFollowPlayer = true;
     }
 
 }

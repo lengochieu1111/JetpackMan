@@ -90,11 +90,16 @@ public class HUD : RyoMonoBehaviour
         this.SetActive_MatchPausedWidget(false);
     }
 
-    public void ShowResult()
+    public void ShowResult(bool isWin)
     {
         this.SetActive_PlayerStateWidget(false);
         this.SetActive_ReviveWidgetWidget(false);
+        this.SetActive_MatchPausedWidget(false);
         this.SetActive_ShowResultWidget(true);
+
+        this.ShowResultWidget?.SetActive_WinPanel(isWin);
+        this.ShowResultWidget?.SetActive_LosePanel(!isWin);
+
     }
 
     /*
@@ -125,19 +130,24 @@ public class HUD : RyoMonoBehaviour
      * Player State Widget 
      */
     #region Player State Widget
-    public void UpdateCoinGold_Text(string newText)
+    public void UpdateCoin_Text(string newText)
     {
-        this.PlayerWidget?.UpdateGoldCoin_Text(newText);
+        this.PlayerWidget?.UpdateCoin_Text(newText);
     }
 
-    public void UpdateCoinSilver_Text(string newText)
+    public void UpdateCrystal_Text(string newText)
     {
-        this.PlayerWidget?.UpdateSilverCoin_Text(newText);
+        this.PlayerWidget?.UpdateCrystal_Text(newText);
     }
-
-    public void UpdateDistanceCounter_Text(string newText)
+    
+    public void UpdateProgress_Level(float percen)
     {
-        this.PlayerWidget?.UpdateDistanceCounter(newText);
+        this.PlayerWidget?.UpdateProgress_Level(percen);
+    }
+    
+    public void UpdateProgress_Energy(float percen)
+    {
+        this.PlayerWidget?.UpdateProgress_Energy(percen);
     }
     #endregion
 
@@ -163,11 +173,6 @@ public class HUD : RyoMonoBehaviour
     public void UpdateAllCoind_Text(string text)
     {
         this.ShowResultWidget?.UpdateAllCoind_Text(text);
-    }
-
-    public void UpdateMatchDistance_Text(string text)
-    {
-        this.ShowResultWidget?.UpdateMatchDistance_Text(text);
     }
     #endregion
 

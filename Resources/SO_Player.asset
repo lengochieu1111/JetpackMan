@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61209429fcb8b0d4995d322ccc9f587f, type: 3}
   m_Name: SO_Player
   m_EditorClassIdentifier: 
-  RunSpeed: 13
-  AirRunningSpeed: 13
+  RunSpeed: 11
+  AirRunningSpeed: 11
   TimeToFlyUp: 0.1
   FootstepSound: {fileID: 8300000, guid: b59247ca121258049a376f34938e6b7a, type: 3}
   ExplosionSound: {fileID: 8300000, guid: 41a0793bc9b4cab44bd00ff154e3fc67, type: 3}

@@ -4,75 +4,118 @@ using UnityEngine;
 
 public class PlayerState : RyoMonoBehaviour, IDataPersistence
 {
-    [SerializeField] private int _allGoldCoins;
-    [SerializeField] private int _goldCoin;
-    [SerializeField] private int _silverCoin;
-    [SerializeField] private int _distance;
+    [SerializeField] private int _allCoins;
+    [SerializeField] private int _allCrystals;
+    [SerializeField] private int _matchCoin;
+    [SerializeField] private int _matchCrystal;
+    [SerializeField] private int _matchEnergy;
+    [SerializeField] private int _matchEnergyMax = 100;
 
-    public int AllGoldCoins
+    public int AllCoins
     {
-        get { return this._allGoldCoins; }
-        private set { this._allGoldCoins = value; }
+        get { return this._allCoins; }
+        private set { this._allCoins = value; }
     }
-    public int GoldCoin
+    public int AllCrystals
     {
-        get { return this._goldCoin; }
-        private set { this._goldCoin = value; }
+        get { return this._allCrystals; }
+        private set { this._allCrystals = value; }
+    }
+    public int MatchCoin
+    {
+        get { return this._matchCoin; }
+        private set { this._matchCoin = value; }
     }
 
-    public int SilverCoin
+    public int MatchCrystal
     {
-        get { return this._silverCoin; }
-        private set { this._silverCoin = value; }
+        get { return this._matchCrystal; }
+        private set { this._matchCrystal = value; }
+    }
+    public int MatchEnergy
+    {
+        get { return this._matchEnergy; }
+        private set { this._matchEnergy = value; }
     }
     
-    public int Distance
+    public int MatchEnergyMax
     {
-        get { return this._distance; }
-        private set { this._distance = value; }
+        get { return this._matchEnergyMax; }
+        private set { this._matchEnergyMax = value; }
     }
 
     protected override void SetupValues()
     {
         base.SetupValues();
 
-        this.GoldCoin = 0;
-        this.SilverCoin = 0;
-        this.Distance = 0;
+        this.MatchCoin = 0;
+        this.MatchCrystal = 0;
+        this.MatchEnergy = 0;
+        this.MatchEnergyMax = 100;
     }
 
     public void PrepareToStartMatch()
     {
-        this.GoldCoin = 0;
-        this.SilverCoin = 0;
-        this.Distance = 0;
+        this.MatchCoin = 0;
+        this.MatchCrystal = 0;
+        this.MatchEnergy = 0;
+        this.MatchEnergyMax = 100;
     }
 
-    public void AddOne_GoldCoin()
+    public void AddOne_MatchCoin()
     {
-        this.GoldCoin++;
-    }
-
-    public void AddOne_SilverCoin()
-    {
-        this.SilverCoin++;
+        this.MatchCoin++;
     }
     
-    public void AddOne_Distance()
+    public void AddOne_MatchCrytal()
     {
-        this.Distance++;
+        this.MatchCrystal++;
     }
+    
+    public void DoubleCoin()
+    {
+        this.MatchCoin *= 2;
+    }
+
+    public void Add_MatchEnergy(int energy)
+    {
+        this.MatchEnergy = Mathf.Clamp(this.MatchEnergy + energy, 0, this.MatchEnergyMax);
+    }
+
+    public void Reduce_MatchEnergy(int energy)
+    {
+        this.MatchEnergy = Mathf.Clamp(this.MatchEnergy - energy, 0, this.MatchEnergyMax);
+    }
+
 
     #region Data Persistence
     public void LoadGame(GameData data)
     {
-        this.AllGoldCoins = data.AllGoldCoins;
+        this.AllCoins = data.AllCoins;
+        this.AllCrystals = data.AllCrystals;
     }
 
     public void SaveGame(ref GameData data)
     {
-        data.AllGoldCoins = this.AllGoldCoins + this.GoldCoin;
+        data.AllCoins = this.AllCoins + this.MatchCoin;
+        data.AllCrystals = this.AllCrystals + this.MatchCrystal;
     }
     #endregion
+
+    public bool Reduce_Coin(int reducce)
+    {
+        if (reducce > this.AllCoins) return false;
+
+        this.AllCoins -= reducce;
+        return true;
+    }
+
+    public bool Reduce_Crystal(int reducce)
+    {
+        if (reducce > this.MatchCrystal) return false;
+
+        this.MatchCrystal -= reducce;
+        return true;
+    }
 
 }

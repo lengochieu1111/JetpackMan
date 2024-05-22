@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Head
+    m_Hash: 130111906
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: CaMap
+      m_Hash: 239759531
+      m_Sprite: {fileID: -2184974811741063871, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2184974811741063871, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+    - m_Name: NongDan
+      m_Hash: 292968934
+      m_Sprite: {fileID: 3166619050913045991, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3166619050913045991, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: Chest
+    m_Hash: 981834931
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: CaMap
+      m_Hash: 239759531
+      m_Sprite: {fileID: -6046269684804490715, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6046269684804490715, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+    - m_Name: NongDan
+      m_Hash: 292968934
+      m_Sprite: {fileID: -275640140066128622, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -275640140066128622, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: RightArm
+    m_Hash: 733214503
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: CaMap
+      m_Hash: 239759531
+      m_Sprite: {fileID: 3402104797391459561, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3402104797391459561, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+    - m_Name: NongDan
+      m_Hash: 292968934
+      m_Sprite: {fileID: 3555009847190495270, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3555009847190495270, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: LeftArm
+    m_Hash: 730008282
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: CaMap
+      m_Hash: 239759531
+      m_Sprite: {fileID: 3350551475369470668, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3350551475369470668, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+    - m_Name: NongDan
+      m_Hash: 292968934
+      m_Sprite: {fileID: -4136076985442667874, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4136076985442667874, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: RightLeg
+    m_Hash: 104663548
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: CaMap
+      m_Hash: 239759531
+      m_Sprite: {fileID: -798585109241504158, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -798585109241504158, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+    - m_Name: NongDan
+      m_Hash: 292968934
+      m_Sprite: {fileID: -6973800072110199225, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6973800072110199225, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: LeftLeg
+    m_Hash: 101577729
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: CaMap
+      m_Hash: 239759531
+      m_Sprite: {fileID: -836753634730852210, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -836753634730852210, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+    - m_Name: NongDan
+      m_Hash: 292968934
+      m_Sprite: {fileID: -7438967826516658475, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7438967826516658475, guid: 9085b66a734be43468e308ec796dd5c4, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638505039821290159
+  m_Version: 1

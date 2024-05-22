@@ -18,12 +18,16 @@ public class MovementComponent : BaseCharacterAbstract
     [SerializeField] private bool _isRunning;
     [SerializeField] private bool _isFlying;
     [SerializeField] private bool _isRushingUpHigh;
+    [SerializeField] private bool _isAccelerating;
     [SerializeField] private float _runSpeed;
     [SerializeField] private float _airRunningSpeed;
 
     [SerializeField] private float _timeToFlyUp = 0.12f;
+    [SerializeField] private float _accelerationTime = 4f;
+    [SerializeField] private float _nextAccelerationTime = 20f;
 
     [SerializeField] private float _movementSpeed;
+    [SerializeField] private float _timeCounter;
     private Coroutine _flyCoroutine;
 
     public Rigidbody2D Rigidbody => _rigidbody;
@@ -78,6 +82,12 @@ public class MovementComponent : BaseCharacterAbstract
             this._isFlying = value;
         }
     }
+    
+    public bool IsAccelerating
+    {
+        get { return this._isAccelerating; }
+        private set { this._isAccelerating = value; }
+    }
 
     public bool IsRushingUpHigh
     {
@@ -103,12 +113,9 @@ public class MovementComponent : BaseCharacterAbstract
         private set { this._airRunningSpeed = value; }
     }
 
-    public float TimeToFlyUp
-    {
-        get { return this._timeToFlyUp; }
-        set { this._timeToFlyUp = value; }
-    }
-
+    public float TimeToFlyUp => this._timeToFlyUp; 
+    public float AccelerationTime => this._accelerationTime; 
+    public float NextAccelerationTime => this._nextAccelerationTime; 
     #endregion
 
     #region Load Component
@@ -123,7 +130,6 @@ public class MovementComponent : BaseCharacterAbstract
 
     private void LoadCharacterSO()
     {
-        if (this._characterSO != null) return;
         this.CharacterSO = this.Character?.Model?.CharacterSO;
     }
     
@@ -140,6 +146,44 @@ public class MovementComponent : BaseCharacterAbstract
         this._rigidbody = this.Character?.Rigidbody;
     }
     #endregion
+
+    protected override void SetupValues()
+    {
+        base.SetupValues();
+
+        this._timeCounter = 0;
+    }
+
+    private void Update()
+    {
+        if (this.Controller.IsDead) return;
+
+        if (this.IsAccelerating == false)
+        {
+            this._timeCounter += Time.deltaTime;
+
+            if (this._timeCounter > this.NextAccelerationTime)
+            {
+                this._timeCounter = 0;
+                this.IsAccelerating = true;
+            }
+        }
+        else
+        {
+            if (this._timeCounter < this.AccelerationTime)
+            {
+                this._timeCounter += Time.deltaTime;
+                this.MovementSpeed += Time.deltaTime;
+                this.RunSpeed += Time.deltaTime;
+                this.AirRunningSpeed += Time.deltaTime;
+            }
+            else
+            {
+                this._timeCounter = 0;
+                this.IsAccelerating = false;
+            }
+        }
+    }
 
     #region Run
     public void RequestRun(bool isRunning)

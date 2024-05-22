@@ -3,8 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
-public class DataPersistenceManager :Singleton<DataPersistenceManager>
+public class DataPersistenceManager :Singleton_DontDestroyOnLoad<DataPersistenceManager>
 {
     [Header("Data Storage Config")]
     [SerializeField] private string _fileName;
@@ -13,22 +14,41 @@ public class DataPersistenceManager :Singleton<DataPersistenceManager>
     private List<IDataPersistence> _dataPersistenceObjects;
     private FileDataHandler _fileDataHandler;
 
-    protected override void Start()
+    protected override void Awake()
     {
-        base.Start();
+        base.Awake();
 
         this._fileDataHandler = new FileDataHandler(Application.persistentDataPath, this._fileName);
+        // persistentDataPath
+    }
 
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+           
+        SceneManager.sceneLoaded += this.OnSceneLoaded;
+        SceneManager.sceneUnloaded += this.OnSceneUnloaded;
+
+    }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+
+        SceneManager.sceneLoaded -= this.OnSceneLoaded;
+        SceneManager.sceneUnloaded -= this.OnSceneUnloaded;
+    }
+
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
         this._dataPersistenceObjects = this.FindAllDataPersistenceObjects();
 
         this.LoadGame();
     }
 
-    protected override void OnEnable()
+    public void OnSceneUnloaded(Scene scene)
     {
-
-
-        base.OnEnable();
+        this.SaveGame();
     }
 
     public void NewGame()
@@ -75,6 +95,17 @@ public class DataPersistenceManager :Singleton<DataPersistenceManager>
             .OfType<IDataPersistence>();
 
         return new List<IDataPersistence>(dataPersistenceObjects);
+    }
+
+    public void SendData(IDataPersistence dataPersistence)
+    {
+        dataPersistence.LoadGame(this._gameData);
+    }
+
+    public void ReceiveData(IDataPersistence dataPersistence)
+    {
+        dataPersistence.SaveGame(ref this._gameData);
+        this._fileDataHandler.Save(this._gameData);
     }
 
 }

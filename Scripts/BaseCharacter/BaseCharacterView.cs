@@ -39,6 +39,7 @@ namespace MVCS.Architecture.BaseCharacter
         }
         #endregion
 
+        #region LoadComponents
         protected override void LoadComponents()
         {
             base.LoadComponents();
@@ -53,6 +54,8 @@ namespace MVCS.Architecture.BaseCharacter
             this.animator = GetComponent<Animator>();
         }
 
+        #endregion
+
         public override void SetupCharacterView(BaseCharacterController controller)
         {
             base.SetupCharacterView(controller);
@@ -65,6 +68,11 @@ namespace MVCS.Architecture.BaseCharacter
         {
             this.Animator.SetBool(AnimationString.isDead, false);
             this.Animator.SetBool(AnimationString.isComplytelyDead, false);
+        }
+
+        public void RequestCombatMode(bool isCombatMode)
+        {
+            this.Animator.SetBool(AnimationString.isCombatMode, isCombatMode);
         }
 
         #region Run
@@ -113,11 +121,13 @@ namespace MVCS.Architecture.BaseCharacter
         #region Dead
         public void RequestDead()
         {
+            this.Animator.SetBool(AnimationString.isCombatMode, false);
             this.Animator.SetBool(AnimationString.isRunning, false);
             this.Animator.SetBool(AnimationString.isFlying, false);
             this.Animator.SetBool(AnimationString.isDead, true);
+
         }
-        
+
         public void RequestComplytelyDead(bool isDead)
         {
             this.Animator.SetBool(AnimationString.isComplytelyDead, isDead);

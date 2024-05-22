@@ -67,8 +67,8 @@ public class LaserTwo : RyoMonoBehaviour
         this.CapsuleCollider.isTrigger = true;
         this.CapsuleCollider.enabled = false;
 
-        this.LeftLaser.transform.position = new Vector2(this.X_AxisStart[0], this.transform.position.y);
-        this.RightLaser.transform.position = new Vector2(this.X_AxisStart[1], this.transform.position.y);
+        this.LeftLaser.transform.localPosition = new Vector2(this.X_AxisStart[0], this.transform.position.y);
+        this.RightLaser.transform.localPosition = new Vector2(this.X_AxisStart[1], this.transform.position.y);
     }
     #endregion
 
@@ -87,14 +87,13 @@ public class LaserTwo : RyoMonoBehaviour
         {
             timeCounter += Time.deltaTime;
 
-            this.RightLaser.position = new Vector2(Mathf.Lerp(this.X_AxisStart[1], this.X_AxisEnd[1], timeCounter / this.LaserAppearTime), 0);
-            this.LeftLaser.position = new Vector2(Mathf.Lerp(this.X_AxisStart[0], this.X_AxisEnd[0], timeCounter / this.LaserAppearTime), 0);
+            this.RightLaser.localPosition = new Vector2(Mathf.Lerp(this.X_AxisStart[1], this.X_AxisEnd[1], timeCounter / this.LaserAppearTime), 0);
+            this.LeftLaser.localPosition = new Vector2(Mathf.Lerp(this.X_AxisStart[0], this.X_AxisEnd[0], timeCounter / this.LaserAppearTime), 0);
 
             yield return null;
         }
 
-        this.SetActiveStatus(true);
-
+        this.SetActiveStatus_Animator(true);
         this._waitToTurnOffActiveStatusCoroutine = StartCoroutine(this.WaitToTurnOffActiveStatus());
     }
 
@@ -102,8 +101,7 @@ public class LaserTwo : RyoMonoBehaviour
     {
         yield return new WaitForSecondsRealtime(this.LaserActiveTime);
 
-        this.SetActiveStatus(false);
-
+        this.SetActiveStatus_Animator(false);
         this._offActiveStatusCoroutine = StartCoroutine(this.OffActiveStatus());
     }
 
@@ -115,8 +113,8 @@ public class LaserTwo : RyoMonoBehaviour
         {
             timeCounter += Time.deltaTime;
 
-            this.RightLaser.position = new Vector2(Mathf.Lerp(this.X_AxisEnd[1], this.X_AxisStart[1], timeCounter / this.LaserAppearTime), 0);
-            this.LeftLaser.position = new Vector2(Mathf.Lerp(this.X_AxisEnd[0], this.X_AxisStart[0], timeCounter / this.LaserAppearTime), 0);
+            this.RightLaser.localPosition = new Vector2(Mathf.Lerp(this.X_AxisEnd[1], this.X_AxisStart[1], timeCounter / this.LaserAppearTime), 0);
+            this.LeftLaser.localPosition = new Vector2(Mathf.Lerp(this.X_AxisEnd[0], this.X_AxisStart[0], timeCounter / this.LaserAppearTime), 0);
 
             yield return null;
         }
@@ -124,12 +122,15 @@ public class LaserTwo : RyoMonoBehaviour
         TrapSpawner.Instance.Destroy(this.transform);
     }
 
-    private void SetActiveStatus(bool active)
+    private void SetActiveStatus_Animator(bool active)
     {
-        this.CapsuleCollider.enabled = active;
-
         foreach (Animator animator in this.Animators)
             animator.SetBool("isOn", active);
+    }
+
+    public void SetActiveStatus_CapsuleCollider(bool active)
+    {
+        this.CapsuleCollider.enabled = active;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -124,7 +124,6 @@ public class CapsuleComponent : BaseCharacterAbstract
         this._rigidbody.velocity = new Vector2(this._rigidbody.velocity.x, 0);
     }
 
-
     /*    private void OnDrawGizmos()
         {
             Bounds CapsuleBounds = this._capsuleCollider.bounds;

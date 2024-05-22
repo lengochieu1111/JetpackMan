@@ -5,26 +5,35 @@ using System.Collections.Generic;
 using UMVCS.Architecture;
 using UnityEngine;
 using UnityEngine.Events;
+using static UnityEngine.EventSystems.EventTrigger;
 
 namespace MVCS.Architecture.BaseCharacter
 {
     [RequireComponent(typeof(Rigidbody2D))]
     public class BaseCharacter : MVCS_BaseCharacter
     <BaseCharacterModel, BaseCharacterController, BaseCharacterView, BaseCharacterService>
-        , I_Damageable, I_PickUpItem
+        , I_Damageable, I_PickUpItem, IDataPersistence
     {
         [Header("Component")]
         [SerializeField] protected CapsuleComponent capsuleComponent;
         [SerializeField] protected MovementComponent movementComponent;
         [SerializeField] protected HealthComponent healthComponent;
+        [SerializeField] protected AttackComponent attackComponent;
         [SerializeField] protected Rigidbody2D rigidbody_;
         [SerializeField] protected CapsuleCollider2D capsuleCollider;
+        [SerializeField] protected int _currentBullet;
 
         public CapsuleComponent CapsuleComponent => this.capsuleComponent;
         public MovementComponent MovementComponent => this.movementComponent;
         public HealthComponent HealthComponent => this.healthComponent;
+        public AttackComponent AttackComponent  => this.attackComponent;
         public Rigidbody2D Rigidbody => this.rigidbody_;
         public CapsuleCollider2D CapsuleCollider => this.capsuleCollider;
+        public int CurrentBullet
+        {  
+            get { return this._currentBullet; }
+            private set { this._currentBullet = value; }
+        }
 
         #region LoadComponent
 
@@ -35,6 +44,7 @@ namespace MVCS.Architecture.BaseCharacter
             this.LoadCapsuleComponent();
             this.LoadMovementComponent();
             this.LoadHealthComponent();
+            this.LoadAttackComponent();
 
             this.LoadRigidbody();
             this.LoadCapsuleCollider();
@@ -52,6 +62,13 @@ namespace MVCS.Architecture.BaseCharacter
             if (this.healthComponent != null) return;
 
             this.healthComponent = GetComponentInChildren<HealthComponent>();
+        }
+        
+        protected virtual void LoadAttackComponent()
+        {
+            if (this.attackComponent != null) return;
+
+            this.attackComponent = GetComponentInChildren<AttackComponent>();
         }
 
         protected virtual void LoadMovementComponent()
@@ -87,21 +104,17 @@ namespace MVCS.Architecture.BaseCharacter
         }
         #endregion
 
-
-        /* Test */
-        protected override void Start()
+        protected override void OnEnable()
         {
-            base.Start();
+            base.OnEnable();
 
-            PrepareToStartMatch();
-            StartMatch();
+            DataPersistenceManager.Instance.SendData(this);
+
         }
 
-        //
-        public void PrepareToStartMatch()
-        {
-            this.Controller?.PrepareToStartMatch();
-        }
+        /*
+         * 
+         */
 
         public void StartMatch()
         {
@@ -112,6 +125,10 @@ namespace MVCS.Architecture.BaseCharacter
         {
             this.Controller?.RevivePlayer();
         }
+
+        /*
+         * 
+         */
 
         #region Damageable
         public bool TakeDamage(float damage)
@@ -124,11 +141,40 @@ namespace MVCS.Architecture.BaseCharacter
         #endregion
 
         #region ReceiveItem
-        public void PickUp_Coin(ECoinType coinType)
+        public void PickUp_Coin()
         {
-            GameMode.Instance.HandlePlayerPickUp_Coin(coinType);
+            GameMode.Instance.HandlePlayerPickUp_Coin();
+        }
+
+        public void PickUp_Crystal()
+        {
+            GameMode.Instance.HandlePlayerPickUp_Crystal();
+        }
+
+        public void PickUp_GunItem()
+        {
+            this.Controller?.RequestCombatMode(true);
+        }
+
+        public void PickUp_Energy(int energy)
+        {
+            GameMode.Instance.HandlePlayerPickUp_Energy(energy);
         }
         #endregion
 
+        public void LoadGame(GameData data)
+        {
+            this.CurrentBullet = data.CurrentBullet;
+        }
+
+        public void SaveGame(ref GameData data)
+        {
+            
+        }
+
+        public void PickUp_DoubleCoin()
+        {
+            GameMode.Instance.HandlePlayerPickUp_DoubleCoin();
+        }
     }
 }

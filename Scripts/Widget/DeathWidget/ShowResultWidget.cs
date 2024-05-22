@@ -2,59 +2,152 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class ShowResultWidget : RyoMonoBehaviour
+public class ShowResultWidget : BaseWidget
 {
-    [SerializeField] private TextMeshProUGUI _matchCoin_Text;
-    [SerializeField] private TextMeshProUGUI _allCoind_Text;
-    [SerializeField] private TextMeshProUGUI _matchDistance_Text;
-    public TextMeshProUGUI MatchCoind_Text
-    {
-        get { return this._matchCoin_Text; }
-        private set { this._matchCoin_Text = value; }
-    }
-    public TextMeshProUGUI AllCoind_Text
-    {
-        get { return this._allCoind_Text; }
-        private set { this._allCoind_Text = value; }
-    }
-    public TextMeshProUGUI MatchDistance_Text
-    {
-        get { return this._matchDistance_Text; }
-        private set { this._matchDistance_Text = value; }
-    }
+    [SerializeField] private Transform _losePanel;
+    [SerializeField] private Transform _winPanel;
 
+    [SerializeField] private TextMeshProUGUI _matchCoin_Text;
+    [SerializeField] private TextMeshProUGUI _allCoin_Text;
+    public Transform LosePanel => this._losePanel;
+    public Transform WinPanel => this._winPanel;
+    public TextMeshProUGUI MatchCoin_Text => this._matchCoin_Text;
+    public TextMeshProUGUI AllCoin_Text => this._allCoin_Text;
+
+    #region LoadComponents
     protected override void LoadComponents()
     {
         base.LoadComponents();
 
-        Transform coind_Match = this.transform.Find("MatchCoin_Text");
-        this.MatchCoind_Text = coind_Match?.GetComponent<TextMeshProUGUI>();
+        this.LoadLosePanel();
+        this.LoadWinPanel();
 
-        Transform coind_All = this.transform.Find("AllCoin_Text");
-        this.AllCoind_Text = coind_All?.GetComponent<TextMeshProUGUI>();
-
-        Transform distance = this.transform.Find("MatchDistance_Text");
-        this.MatchDistance_Text = distance?.GetComponent<TextMeshProUGUI>();
-
+        this.LoadMatchCoin_Text();
+        this.LoadAllCoin_Text();
     }
+
+    private void LoadLosePanel()
+    {
+        if (this._losePanel != null) return;
+
+        this._losePanel = this.FindChildByName(transform, "LosePanel");
+        this._losePanel?.gameObject.SetActive(false);
+    }
+    
+    private void LoadWinPanel()
+    {
+        if (this._winPanel != null) return;
+
+        this._winPanel = this.FindChildByName(transform, "WinPanel");
+        this._winPanel?.gameObject.SetActive(false);
+    }
+
+    private void LoadMatchCoin_Text()
+    {
+        if (this._matchCoin_Text != null) return;
+
+        Transform coind_Match = this.FindChildByName(transform, "MatchCoin_Text");
+        this._matchCoin_Text = coind_Match?.GetComponent<TextMeshProUGUI>();
+    }
+    
+    private void LoadAllCoin_Text()
+    {
+        if (this._allCoin_Text != null) return;
+
+        Transform coind_All = this.FindChildByName(transform, "AllCoin_Text");
+        this._allCoin_Text = coind_All?.GetComponent<TextMeshProUGUI>();
+    }
+
+
+    private Transform FindChildByName(Transform parrent, string childName)
+    {
+        Transform childObject = parrent.Find(childName);
+
+        if (childObject != null)
+        {
+            return childObject;
+        }
+        else
+        {
+            foreach (Transform child in parrent)
+            {
+                childObject = this.FindChildByName(child, childName);
+
+                if (childObject != null)
+                    return childObject;
+            }
+
+            return null;
+        }
+    }
+
+    #endregion
+
+
+    /*
+     * 
+     */
+
+    public void SetActive_LosePanel(bool isActive)
+    {
+        this.LosePanel?.gameObject.SetActive(isActive);
+    }
+
+    public void SetActive_WinPanel(bool isActive)
+    {
+        this.WinPanel?.gameObject.SetActive(isActive);
+    }
+
+    /*
+     * 
+     */
 
     public void UpdateMatchCoind_Text(string text)
     {
-        if (this.MatchCoind_Text == null) return;
-        this.MatchCoind_Text.text = text;
+        if (this.MatchCoin_Text == null) return;
+        this.MatchCoin_Text.text = text;
     }
-
+    
     public void UpdateAllCoind_Text(string text)
     {
-        if (this.AllCoind_Text == null) return;
-        this.AllCoind_Text.text = text;
+        if (this.AllCoin_Text == null) return;
+        this.AllCoin_Text.text = text;
     }
 
-    public void UpdateMatchDistance_Text(string text)
+    /*
+     * 
+     */
+
+    public void PressNextButton()
     {
-        if (this.MatchDistance_Text == null) return;
-        this.MatchDistance_Text.text = text + " m";
+        GameManager.Instance.NextLevel();
     }
+
+    public void PressRetryButton()
+    {
+        this.PlayAudioClicked();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
+    }
+
+    public void PressQuitButton()
+    {
+        this.PlayAudioClicked();
+
+        int sceneTotal = SceneManager.sceneCountInBuildSettings;
+        int sceneNext = SceneManager.GetActiveScene().buildIndex + 1;
+
+        SceneManager.LoadScene(sceneNext % sceneTotal, LoadSceneMode.Single);
+    }
+
+    /*
+     * 
+     */
+    private void PlayAudioClicked()
+    {
+        SoundManager.Instance.PlayAudio_Compress();
+    }
+
 }

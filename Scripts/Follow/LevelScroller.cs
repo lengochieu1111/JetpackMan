@@ -11,7 +11,8 @@ public class LevelScroller : RyoMonoBehaviour
     [Range(-1.0f, 1.0f)]
     [SerializeField] private float _scrollerSpeed = 0.5f;
     [SerializeField] private bool _isScrolling;
-    [SerializeField] private int _scrollDirectin = 1;
+    [SerializeField] private int _scrollDirection = 1;
+    [SerializeField] private float _movingSpeed = 0.5f;
     public Material Material
     {
         get { return this._material; }
@@ -55,7 +56,7 @@ public class LevelScroller : RyoMonoBehaviour
 
     private void UpdateTextureOffset()
     {
-        this._offset += (Time.fixedDeltaTime * this._scrollerSpeed * this._scrollDirectin) / 4;
+        this._offset += (Time.fixedDeltaTime * this._scrollDirection * this._scrollerSpeed * this._movingSpeed);
         this.Material.SetTextureOffset("_MainTex", new Vector2(this._offset, 0));
     }
 
