@@ -165,8 +165,17 @@ public class LightBullet : RyoMonoBehaviour
         RaycastHit2D hit = Physics2D.CapsuleCast(this.Collider.bounds.center, this.Collider.bounds.size, CapsuleDirection2D.Vertical, 0, Vector2.right, 0, this._enemyLayer);
         if (hit.collider != null && this.IsOn)
         {
-            this.IsOn = false;
-            this.DestroyObject();
+            I_Damageable damageable = hit.collider.transform.GetComponent<I_Damageable>();
+            if (damageable != null)
+            {
+                if (damageable.TakeDamage(this.Damage))
+                {
+                    this.IsOn = false;
+                    this.DestroyObject();
+                }
+            }
+
+
         }
 
     }

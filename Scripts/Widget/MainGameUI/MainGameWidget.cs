@@ -41,6 +41,8 @@ public class MainGameWidget : RyoMonoBehaviour
     public void PressStartButton()
     {
         this.Animator?.SetTrigger(AnimationString.isStartMatch);
+
+        // this.StartGame();
     }
 
     public void PressShopButton()

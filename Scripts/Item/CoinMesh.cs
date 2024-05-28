@@ -13,6 +13,7 @@ public class CoinMesh : RyoMonoBehaviour
 {
     [SerializeField] private CoinMeshType _coinMeshType;
     [SerializeField] private List<List<Coin>> CoinList = new List<List<Coin>>();
+    [SerializeField] private List<List<Coin>> CoinList_AfterCollision = new List<List<Coin>>();
     [SerializeField] private float _delayTime = 0.01f;
     [SerializeField] private bool _isEnable = true;
     private int _maximumColumns;
@@ -117,6 +118,30 @@ public class CoinMesh : RyoMonoBehaviour
 
         ItemSpawner.Instance.Destroy(this.transform);
     }
+
+    //private void LoadCoinMesh_AfterCollision()
+    //{
+    //    int childCount = this.transform.childCount;
+
+    //    for (int i = 0; i < childCount; i++)
+    //    {
+    //        Transform chill = this.transform.GetChild(i);
+    //        List<Coin> row = chill.GetComponentsInChildren<Coin>().ToList();
+    //        this.CoinList_AfterCollision.Add(row);
+    //    }
+
+    //    this._firstRowCoin = this.transform.GetChild(0).GetComponentsInChildren<Coin>(true).ToList();
+    //    this._maximumColumns = this._firstRowCoin.Count;
+
+    //    foreach (List<Coin> coinRow in this.CoinList)
+    //    {
+    //        foreach (Coin coin in coinRow)
+    //        {
+    //            coin.gameObject.SetActive(false);
+    //        }
+    //    }
+
+    //}
 
 
 }

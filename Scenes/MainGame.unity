@@ -131,10 +131,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3883515157937996883, guid: a4ee696ce26938f489e1ecc05e99fc85, type: 3}
-      propertyPath: _fileName
-      value: data.game
-      objectReference: {fileID: 0}
     - target: {fileID: 7014091119783378634, guid: a4ee696ce26938f489e1ecc05e99fc85, type: 3}
       propertyPath: m_Name
       value: DataPersistenceManager
@@ -2412,7 +2408,6 @@ MonoBehaviour:
   - {fileID: 1107822085}
   - {fileID: 904563601}
   - {fileID: 2099747990}
-  - {fileID: 0}
   _currentLevel: 0
   _levelsAreOpen: 
 --- !u!1 &385698737
@@ -5974,7 +5969,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 310, y: 122}
+  m_AnchoredPosition: {x: 310, y: 0}
   m_SizeDelta: {x: 120, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &841824234
@@ -7559,7 +7554,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.578
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -13866,7 +13861,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 310, y: 122}
+  m_AnchoredPosition: {x: 310, y: 0}
   m_SizeDelta: {x: 120, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1879133859

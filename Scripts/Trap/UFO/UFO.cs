@@ -395,6 +395,7 @@ public class UFO : RyoMonoBehaviour, I_Damageable
     public bool TakeDamage(float damage)
     {
         this.Health = Mathf.Clamp(this.Health - damage, 0, this.HealthMax);
+        this.PlayExplosionEffect();
 
         if (this.Health <= 0)
         {
@@ -423,6 +424,14 @@ public class UFO : RyoMonoBehaviour, I_Damageable
     private void UpdateHealthbar()
     {
         this.Healthbar_Image.fillAmount = this.Health * 1.0f / this.HealthMax;
+    }
+
+    private void PlayExplosionEffect()
+    {
+        Transform effect = EffectSpawner.Instance.Spawn(EffectSpawner.ExplosionOne, this.transform.position, this.transform.rotation);
+        effect.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+        effect.SetParent(this.transform);
+        effect.gameObject.SetActive(true);
     }
 
 }

@@ -129,27 +129,14 @@ public class SettingWidget : RyoMonoBehaviour
         {
             this.SetSprite_Music(this._offMusic_Sprite);
         }
+
     }
     
     public void PressVibrationButton()
     {
-        if (SoundManager.Instance.IsActive)
-        {
-            SoundManager.Instance.PlayAudio_Compress();
-        }
-
-        MusicManager.Instance.ChangeActive();
-
-        if (MusicManager.Instance.IsActive)
-        {
-            this.SetSprite_Music(this._onMusic_Sprite);
-        }
-        else
-        {
-            this.SetSprite_Music(this._offMusic_Sprite);
-        }
+        Handheld.Vibrate();
     }
-    
+
     public void PressExitButton()
     {
         this.gameObject.SetActive(false);

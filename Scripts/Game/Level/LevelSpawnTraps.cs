@@ -137,6 +137,8 @@ public class LevelSpawnTraps : RyoMonoBehaviour
 
         this.RandomSpawnTrap();
 
+        if (ItemSpawner.Instance.SpawnedCount > 0) return;
+
         if (this.IsSpawningLaserOne)
         {
             this.LaserOneSpawnProcess();

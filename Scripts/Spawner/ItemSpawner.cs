@@ -18,7 +18,7 @@ public class ItemSpawner : Spawner<ItemSpawner>
         { "CoinMesh_HIEU", "CoinMesh_HEART", "CoinMesh_LONG", "CoinMesh_CNPM", "CoinMesh_WAVE" };
     
     [SerializeField] public static readonly string[] AdvancedItems = 
-        { "Crystal", "BigCoin", "Magnet", "DoubleCoin"};
+        { "Crystal", "BigCoin", "DoubleCoin"};
 
     //private void Update()
     //{

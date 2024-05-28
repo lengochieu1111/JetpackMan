@@ -135,10 +135,10 @@ public class MatchPausedWidget : BaseWidget
 
     public void PressVibrationButton()
     {
-        if (SoundManager.Instance.IsActive)
-        {
-            SoundManager.Instance.PlayAudio_Compress();
-        }
+        //if (SoundManager.Instance.IsActive)
+        //{
+        //    SoundManager.Instance.PlayAudio_Compress();
+        //}
 
         Handheld.Vibrate();
     }
@@ -152,11 +152,13 @@ public class MatchPausedWidget : BaseWidget
     public void PressRetryButton()
     {
         this.PlayAudioClicked();
+        GameManager.Instance.SetMatchState(MatchState.InProgress);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void PressQuitButton()
     {
+        GameManager.Instance.SetMatchState(MatchState.InProgress);
         GameManager.Instance.SetMatchState(MatchState.LeavingMatch);
     }
 

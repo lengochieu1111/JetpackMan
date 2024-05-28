@@ -171,10 +171,16 @@ public class Missile : RyoMonoBehaviour
         bool canDestroy_2 = this.transform.position.x < CameraManager.Instance.LeftCornerOfCamera.transform.position.x;
         bool canDestroy_One = canDestroy_1 & canDestroy_2;
 
-        RaycastHit2D hit = Physics2D.CapsuleCast(this.Collider.bounds.center, 
-            new Vector2 (this.Collider.bounds.size.x, this.Collider.bounds.size .y * 2), 
-            CapsuleDirection2D.Vertical, 0, Vector2.left, 0, this._groundLayer);
-        bool canDestroy_Two = hit.collider != null;
+        bool canDestroy_Two = false;
+
+        if (this.MissileType == MissileType.Guided)
+        {
+            RaycastHit2D hit = Physics2D.CapsuleCast(this.Collider.bounds.center,
+                new Vector2(this.Collider.bounds.size.x, this.Collider.bounds.size.y * 2),
+                CapsuleDirection2D.Vertical, 0, Vector2.left, 0, this._groundLayer);
+
+            canDestroy_Two = hit.collider != null;
+        }
 
         return canDestroy_One || canDestroy_Two;
     }

@@ -108,7 +108,7 @@ public class Magnet : RyoMonoBehaviour
             this.IsOn = false;
             this.SpawnEffect();
             this.transform.SetParent(GameMode.Instance.Player.transform);
-            transform.localPosition = new Vector2(0, 2);
+            this.transform.localPosition = new Vector2(0, 2);
             this._destroyCoroutine = StartCoroutine(this.DestroyItem());
         }
     }
@@ -147,15 +147,10 @@ public class Magnet : RyoMonoBehaviour
             for (int i = 0; i < hits.Length; i++)
             {
                 hits[i].collider.transform.GetComponent<Coin>()?.SetIsFollowing(true);
+                hits[i].collider.transform.GetComponent<DynamicCoin>()?.SetIsFollowing(true);
             }
         }
 
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireCube(this.Collider.bounds.center, this.Collider.bounds.size * 10);
     }
 
 }

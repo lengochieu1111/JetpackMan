@@ -114,7 +114,10 @@ public class LevelWidget : RyoMonoBehaviour, IDataPersistence
 
         foreach (int level in data.LevelsAreOpen)
         {
-            this.LevelsAreOpen.Add(level);
+            if (this.LevelsAreOpen.Contains(level) == false)
+            {
+                this.LevelsAreOpen.Add(level);
+            }
         }
 
         this.CheckLevelsAreOpen();

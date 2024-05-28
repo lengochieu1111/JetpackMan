@@ -19,8 +19,8 @@ public class GameData
     {
         this.IsActive_Sound = false;
         this.IsActive_Music = false;
-        this.AllCoins = 0;
-        this.AllCrystals = 0;
+        this.AllCoins = 5000;
+        this.AllCrystals = 12;
         this.LevelsAreOpen = new List<int> { 0 };
         this.OpenedItems = new List<bool> { false, false, false };
         this.CurrentLevel = 0;

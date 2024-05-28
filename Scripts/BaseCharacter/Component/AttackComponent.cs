@@ -26,22 +26,46 @@ public class AttackComponent : BaseCharacterAbstract
     {
         if (this.IsCombatMode)
         {
-            if (this._timeCounter >= this.BulletCooldownTime)
+            if (Character.CurrentBullet == 0)
             {
-                this.ShootBullet();
+                if (this._timeCounter >= 0.8f)
+                {
+                    this.ShootBullet();
 
-                this._timeCounter = 0;
+                    this._timeCounter = 0;
+                }
+                else
+                    this._timeCounter += Time.deltaTime;
             }
             else
-                this._timeCounter += Time.deltaTime;
+            {
+                if (this._timeCounter >= this.BulletCooldownTime)
+                {
+                    this.ShootBullet();
+
+                    this._timeCounter = 0;
+                }
+                else
+                    this._timeCounter += Time.deltaTime;
+            }
         }
     }
 
     private void ShootBullet()
     {
-        Transform poolObject = BulletSpawner.Instance.Spawn(BulletSpawner.PlayerGunBullets[Character.CurrentBullet], transform.position, Quaternion.identity);
+        int index = Character.CurrentBullet;
+        Transform poolObject = BulletSpawner.Instance.Spawn(BulletSpawner.PlayerGunBullets[index], transform.position, Quaternion.identity);
         poolObject.SetParent(this.transform);
-        poolObject.localPosition = new Vector2(1f, 0.1f);
+
+        if (index == 0)
+        {
+            poolObject.localPosition = new Vector2(13f, 0.1f);
+        }
+        else
+        {
+            poolObject.localPosition = new Vector2(1f, 0.1f);
+        }
+
         poolObject.gameObject.SetActive(true);
     }
 

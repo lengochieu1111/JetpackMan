@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DynamicCoin : RyoMonoBehaviour
 {
+    [SerializeField] private bool _isFollowing = false;
     [SerializeField] private Collider2D _collider;
     [SerializeField] private Rigidbody2D _rigidbody;
     [SerializeField] private SpriteRenderer _sprite;
@@ -55,6 +56,7 @@ public class DynamicCoin : RyoMonoBehaviour
         base.SetupValues();
 
         this.IsOn = true;
+        _isFollowing = false;
         this._initScale = this.transform.localScale;
         this._playerLayer = LayerMask.GetMask(LayerMaskString.PlayerLayer);
     }
@@ -85,7 +87,15 @@ public class DynamicCoin : RyoMonoBehaviour
             }
 
             this.CollisionWithPlayer();
+
+            if (this._isFollowing)
+            {
+                this.transform.position = Vector3.Lerp(this.transform.position, GameMode.Instance.Player.transform.position, 0.01f);
+            }
+
         }
+
+
     }
 
     private void CollisionWithPlayer()
@@ -151,6 +161,11 @@ public class DynamicCoin : RyoMonoBehaviour
     private void DestroyObject()
     {
         ItemSpawner.Instance.Destroy(this.transform);
+    }
+
+    public void SetIsFollowing(bool isFollowing)
+    {
+        this._isFollowing = isFollowing;
     }
 
 }

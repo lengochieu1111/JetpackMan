@@ -112,6 +112,15 @@ namespace MVCS.Architecture.BaseCharacter
 
         }
 
+        //private void Update()
+        //{
+        //    if (Input.GetKeyDown(KeyCode.K))
+        //    {
+        //        this.Controller.RequestCombatMode(true);
+        //    }
+
+        //}
+
         /*
          * 
          */

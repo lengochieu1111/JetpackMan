@@ -2,6 +2,7 @@ using Patterns.Singleton;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MusicManager : Singleton_DontDestroyOnLoad<MusicManager>, IDataPersistence
 {
@@ -31,6 +32,13 @@ public class MusicManager : Singleton_DontDestroyOnLoad<MusicManager>, IDataPers
             this._audioSource = GetComponent<AudioSource>();
     }
 
+    protected override void SetupValues()
+    {
+        base.SetupValues();
+
+        this._isActive = false;
+    }
+
     public void PlayAudio(AudioClip clip)
     {
         this.AudioSource?.PlayOneShot(clip);
@@ -39,6 +47,7 @@ public class MusicManager : Singleton_DontDestroyOnLoad<MusicManager>, IDataPers
     public void ChangeActive()
     {
         this.IsActive = !this.IsActive;
+        DataPersistenceManager.Instance.ReceiveData(this);
     }
 
     /*

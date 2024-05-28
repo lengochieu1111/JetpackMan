@@ -102,6 +102,16 @@ public class LevelSpawnItems : RyoMonoBehaviour
 
             itemSpawn_Name = ItemSpawner.CoinMeshs[this._itemType_Normal];
 
+
+            int random = Random.Range(0, 2);
+            if (random == 0)
+            {
+                Vector3 spawnPos = CameraManager.Instance.RightCornerOfCamera.position;
+                spawnPos.x += 5;
+                Transform magnet = ItemSpawner.Instance.Spawn(ItemSpawner.Magnet, spawnPos, Quaternion.identity);
+                magnet.gameObject.SetActive(true);
+            }
+
         }
         else
         {

@@ -6,6 +6,7 @@ using UnityEngine;
 public class Coin : RyoMonoBehaviour
 {
     [SerializeField] private bool _isFollowing = false;
+    [SerializeField] private float _followSpeed = 0.03f;
     [SerializeField] private float _timeToDestroy = 0.2f;
     [SerializeField] private bool _isOn = true;
     private Collider2D _collider;
@@ -55,7 +56,8 @@ public class Coin : RyoMonoBehaviour
     {
         if (this._isFollowing)
         {
-            this.transform.position = Vector3.Lerp(this.transform.position, GameMode.Instance.Player.transform.position, 0.01f);
+            this._followSpeed += Time.deltaTime;
+            this.transform.position = Vector3.Lerp(this.transform.position, GameMode.Instance.Player.transform.position, this._followSpeed);
         }
     }
 

@@ -31,8 +31,16 @@ public class SoundManager : Singleton_DontDestroyOnLoad<SoundManager>, IDataPers
     {
         base.LoadComponents();
 
-        if (this._audioSource == null)
-            this._audioSource = GetComponent<AudioSource>();
+        if (this._audioSource != null) return;
+
+        this._audioSource = GetComponent<AudioSource>();
+    }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+
+        // DataPersistenceManager.Instance.ReceiveData(this);
     }
 
     public void PlayAudio(AudioClip clip)
@@ -46,17 +54,11 @@ public class SoundManager : Singleton_DontDestroyOnLoad<SoundManager>, IDataPers
         this.PlayAudio(this.CompressClip);
     }
 
-    /*    private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.L))
-            {
-                PlayAudio(_audioClip);
-            }
-        }*/
-
     public void ChangeActive()
     {
         this.IsActive = !this.IsActive;
+        DataPersistenceManager.Instance.ReceiveData(this);
+
     }
 
     /*
